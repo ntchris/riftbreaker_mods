@@ -1,8 +1,8 @@
 resource_value_smaller
 {
 	font "Exo2_Bold_sdf"
-	char_height "18"
-	space_size "7"
+	char_height "30"
+	space_size "12"
 	color_enabled "1"
 	color "255,195,78"
 	alpha "1"
@@ -31,8 +31,8 @@ resource_value_smaller
 threat_yellow
 {
 	font "orbitron-medium_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "255,190,0"
 	alpha "1"
@@ -62,8 +62,8 @@ threat_yellow
 inventory_description_gray_24
 {
 	font "Exo2_Bold_sdf"
-	char_height "24"
-	space_size "7"
+	char_height "30"
+	space_size "12"
 	color_enabled "1"
 	color "168,168,168"
 	alpha "1"
@@ -92,8 +92,8 @@ inventory_description_gray_24
 inventory_description_gray
 {
 	font "Exo2_Bold_sdf"
-	char_height "27"
-	space_size "7"
+	char_height "34"
+	space_size "12"
 	color_enabled "1"
 	color "168,168,168"
 	alpha "1"
@@ -122,8 +122,8 @@ inventory_description_gray
 small_orbiton_item_level_2
 {
 	font "orbitron-medium_sdf"
-	char_height "27"
-	space_size "7"
+	char_height "34"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -152,8 +152,8 @@ small_orbiton_item_level_2
 smallest_orbiton_item_level_2
 {
 	font "orbitron-medium_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -240,8 +240,8 @@ popups_content_small
 small_orbiton_item_level_3
 {
 	font "orbitron-medium_sdf"
-	char_height "27"
-	space_size "7"
+	char_height "34"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -270,8 +270,8 @@ small_orbiton_item_level_3
 smallest_orbiton_item_level_3
 {
 	font "orbitron-medium_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -300,8 +300,8 @@ smallest_orbiton_item_level_3
 small_orbiton_item_level_0
 {
 	font "orbitron-medium_sdf"
-	char_height "27"
-	space_size "7"
+	char_height "34"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -330,8 +330,8 @@ small_orbiton_item_level_0
 inventory_header_28
 {
 	font "orbitron-medium_sdf"
-	char_height "27"
-	space_size "7"
+	char_height "34"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -360,8 +360,8 @@ inventory_header_28
 smallest_orbiton_item_level_0
 {
 	font "orbitron-medium_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -390,8 +390,8 @@ smallest_orbiton_item_level_0
 small_orbiton_item_level_1
 {
 	font "orbitron-medium_sdf"
-	char_height "27"
-	space_size "7"
+	char_height "34"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -420,8 +420,8 @@ small_orbiton_item_level_1
 smallest_orbiton_item_level_1
 {
 	font "orbitron-medium_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -450,7 +450,7 @@ smallest_orbiton_item_level_1
 tooltip_small_white
 {
 	font "orbitron-medium_sdf"
-	char_height "18"
+	char_height "30"
 	space_size "6"
 	color_enabled "1"
 	color "255,255,255"
@@ -480,8 +480,8 @@ tooltip_small_white
 equipment_green_22
 {
 	font "orbitron-medium_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "51,242,81"
 	alpha "1"
@@ -510,8 +510,8 @@ equipment_green_22
 equipment_green_20
 {
 	font "orbitron-medium_sdf"
-	char_height "20"
-	space_size "7"
+	char_height "26"
+	space_size "12"
 	color_enabled "1"
 	color "51,242,81"
 	alpha "1"
@@ -539,8 +539,8 @@ equipment_green_20
 equipment_red_22
 {
 	font "orbitron-medium_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "242,51,51"
 	alpha "1"
@@ -569,7 +569,8 @@ equipment_red_22
 quest_header_blue
 {
 	font "orbitron-medium_sdf"
-	char_height "32"
+	-- char_height "32"
+	char_height "35"
 	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
@@ -597,10 +598,12 @@ quest_header_blue
 }
 
 quest_text_blue
-{
+{   -- nothing changed??!!! 
 	font "Exo2_Bold_sdf"
-	char_height "23"
-	space_size "7"
+    --char_height "23"
+	--space_size "7"
+	char_height "27"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -629,8 +632,8 @@ quest_text_blue
 hp_orange
 {
 	font "Exo2_Bold_sdf"
-	char_height "23"
-	space_size "7"
+	char_height "29"
+	space_size "12"
 	color_enabled "1"
 	color "252,166,0"
 	alpha "1"
@@ -660,7 +663,7 @@ selected_28
 {
 	font "orbitron-medium_sdf"
 	char_height "28"
-	space_size "7"
+	space_size "12"
 	color_enabled "0"
 	color "255,255,255"
 	alpha "1"
@@ -718,9 +721,10 @@ selected_30
 
 quest_active_time
 {
-	font "Exo2_Bold_sdf"
-	char_height "23"
-	space_size "7"
+	font "orbitron-medium_sdf"
+	-- 23
+	char_height "26"
+	space_size "12"
 	color_enabled "1"
 	color "0,0,0"
 	alpha "1"
@@ -749,8 +753,8 @@ quest_active_time
 threat_red
 {
 	font "orbitron-medium_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "255,73,73"
 	alpha "1"
@@ -779,8 +783,8 @@ threat_red
 resource_white_smaller
 {
 	font "Exo2_Bold_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -809,8 +813,8 @@ resource_white_smaller
 build_info_subheader
 {
 	font "orbitron-medium_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "101,235,255"
 	alpha "1"
@@ -839,8 +843,8 @@ build_info_subheader
 selected_25
 {
 	font "orbitron-medium_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "0"
 	color "255,255,255"
 	alpha "1"
@@ -869,8 +873,8 @@ selected_25
 equipment_dark_blue_22
 {
 	font "orbitron-medium_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "68,138,174"
 	alpha "1"
@@ -900,7 +904,7 @@ shortcuts_active
 {
 	font "orbitron-medium_sdf"
 	char_height "26"
-	space_size "7"
+	space_size "12"
 	color_enabled "1"
 	color "0,0,0"
 	alpha "1"
@@ -930,7 +934,7 @@ dialogs_asia
 {
 	font "Exo2_Bold_sdf"
 	char_height "30"
-	space_size "7"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -989,8 +993,8 @@ header_35
 active_25_black
 {
 	font "orbitron-medium_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "1"
 	color "0,0,0"
 	alpha "1"
@@ -1079,7 +1083,7 @@ selected_yellow
 selected_yellow_25
 {
 	font "orbitron-medium_sdf"
-	char_height "25"
+	char_height "33"
 	space_size "12"
 	color_enabled "1"
 	color "255,179,0"
@@ -1109,8 +1113,8 @@ selected_yellow_25
 resource_yellow
 {
 	font "Exo2_Bold_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "255,190,0"
 	alpha "1"
@@ -1170,7 +1174,7 @@ hp_green_inventory
 {
 	font "orbitron-medium_sdf"
 	char_height "26"
-	space_size "7"
+	space_size "12"
 	color_enabled "1"
 	color "0,255,57"
 	alpha "1"
@@ -1199,8 +1203,8 @@ hp_green_inventory
 resource_white
 {
 	font "Exo2_Bold_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -1229,8 +1233,8 @@ resource_white
 bilans_green
 {
 	font "Exo2_Bold_sdf"
-	char_height "23"
-	space_size "7"
+	char_height "29"
+	space_size "12"
 	color_enabled "1"
 	color "51,248,81"
 	alpha "1"
@@ -1257,10 +1261,11 @@ bilans_green
 }
 
 resource_value
-{
+{   -- for research menu, includes icon item names
 	font "Exo2_Bold_sdf"
-	char_height "22"
-	space_size "7"
+	-- char_height "28"
+	char_height "30"
+	space_size "10"
 	color_enabled "1"
 	color "255,195,78"
 	alpha "1"
@@ -1289,8 +1294,8 @@ resource_value
 build_info_header_blue
 {
 	font "orbitron-medium_sdf"
-	char_height "23"
-	space_size "7"
+	char_height "29"
+	space_size "12"
 	color_enabled "1"
 	color "101,235,255"
 	alpha "1"
@@ -1319,8 +1324,8 @@ build_info_header_blue
 resource_gray
 {
 	font "Exo2_Bold_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "168,168,168"
 	alpha "1"
@@ -1499,8 +1504,8 @@ inventory_bigger
 inventory_category
 {
 	font "orbitron-medium_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "1"
 	color "255,195,78"
 	alpha "1"
@@ -1529,8 +1534,8 @@ inventory_category
 inventory_smaller
 {
 	font "Exo2_Bold_sdf"
-	char_height "20"
-	space_size "7"
+	char_height "26"
+	space_size "12"
 	color_enabled "1"
 	color "160,255,255"
 	alpha "1"
@@ -1589,8 +1594,8 @@ active_35_black
 time
 {
 	font "orbitron-medium_monospaced_sdf"
-	char_height "23"
-	space_size "7"
+	char_height "29"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -1619,8 +1624,10 @@ time
 research_blue
 {
 	font "Exo2_Bold_sdf"
-	char_height "22"
-	space_size "7"
+    -- order in the research main map ( lines)
+	-- char_height "26"
+	char_height "40"
+	space_size "10"
 	color_enabled "1"
 	color "160,255,255"
 	alpha "1"
@@ -1649,8 +1656,8 @@ research_blue
 equipment_blue_22
 {
 	font "orbitron-medium_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "114,234,255"
 	alpha "1"
@@ -1679,8 +1686,8 @@ equipment_blue_22
 resource_green_smaller
 {
 	font "Exo2_Bold_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "92,232,114"
 	alpha "1"
@@ -1709,8 +1716,8 @@ resource_green_smaller
 bilans_red
 {
 	font "Exo2_Bold_sdf"
-	char_height "23"
-	space_size "7"
+	char_height "29"
+	space_size "12"
 	color_enabled "1"
 	color "242,51,51"
 	alpha "1"
@@ -1739,8 +1746,8 @@ bilans_red
 hp_blue
 {
 	font "Exo2_Bold_sdf"
-	char_height "23"
-	space_size "7"
+	char_height "29"
+	space_size "12"
 	color_enabled "1"
 	color "0,229,252"
 	alpha "1"
@@ -1769,8 +1776,8 @@ hp_blue
 inventory_stats_red
 {
 	font "Exo2_Bold_sdf"
-	char_height "27"
-	space_size "7"
+	char_height "34"
+	space_size "12"
 	color_enabled "1"
 	color "255,73,73"
 	alpha "1"
@@ -1799,8 +1806,8 @@ inventory_stats_red
 research_black
 {
 	font "Exo2_Bold_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "0,0,0"
 	alpha "1"
@@ -1858,9 +1865,13 @@ quest_header_green
 
 research_description_blue
 {
-	font "Exo2_Bold_sdf"
+    -- in research menu, right : 
+	-- Cost 2000   Research time 00:11:06  ( not including 2000 and 00:11:06, that's yellow)
+	-- font "Exo2_Bold_sdf" 
+	
+	font "orbitron-medium_sdf"
 	char_height "26"
-	space_size "7"
+	space_size "12"
 	color_enabled "1"
 	color "147,205,255"
 	alpha "1"
@@ -1889,8 +1900,8 @@ research_description_blue
 small_item_level_0
 {
 	font "Exo2_Bold_sdf"
-	char_height "27"
-	space_size "7"
+	char_height "34"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -1919,8 +1930,8 @@ small_item_level_0
 small_item_level_1
 {
 	font "Exo2_Bold_sdf"
-	char_height "27"
-	space_size "7"
+	char_height "34"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -1949,8 +1960,8 @@ small_item_level_1
 inventory_description
 {
 	font "Exo2_Bold_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -1979,8 +1990,8 @@ inventory_description
 small_item_level_2
 {
 	font "Exo2_Bold_sdf"
-	char_height "27"
-	space_size "7"
+	char_height "34"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -2009,8 +2020,8 @@ small_item_level_2
 small_item_level_3
 {
 	font "Exo2_Bold_sdf"
-	char_height "27"
-	space_size "7"
+	char_height "34"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -2040,7 +2051,7 @@ hp_blue_inventory
 {
 	font "orbitron-medium_sdf"
 	char_height "26"
-	space_size "7"
+	space_size "12"
 	color_enabled "1"
 	color "0,229,252"
 	alpha "1"
@@ -2069,8 +2080,8 @@ hp_blue_inventory
 building_type
 {
 	font "Exo2_Bold_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -2099,8 +2110,8 @@ building_type
 inventory_exo_header_25
 {
 	font "Exo2_Bold_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -2129,8 +2140,8 @@ inventory_exo_header_25
 smallest_item_level_0
 {
 	font "Exo2_Bold_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -2159,7 +2170,7 @@ smallest_item_level_0
 tooltip_small_yellow
 {
 	font "orbitron-medium_sdf"
-	char_height "18"
+	char_height "30"
 	space_size "6"
 	color_enabled "1"
 	color "255,190,0"
@@ -2189,8 +2200,8 @@ tooltip_small_yellow
 smallest_item_level_1
 {
 	font "Exo2_Bold_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -2219,8 +2230,8 @@ smallest_item_level_1
 smallest_item_level_2
 {
 	font "Exo2_Bold_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -2249,8 +2260,8 @@ smallest_item_level_2
 smallest_item_level_3
 {
 	font "Exo2_Bold_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -2279,8 +2290,8 @@ smallest_item_level_3
 resource_blue_smaller
 {
 	font "Exo2_Bold_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "101,235,255"
 	alpha "1"
@@ -2309,8 +2320,8 @@ resource_blue_smaller
 vote_blue
 {
 	font "Exo2_Bold_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "1"
 	color "101,235,255"
 	alpha "1"
@@ -2398,9 +2409,12 @@ name
 
 research_white
 {
-	font "Exo2_Bold_sdf"
-	char_height "22"
-	space_size "7"
+    -- for  research queue order
+	--font "Exo2_Bold_sdf"
+	-- 22 , 7   space after the char
+	font "orbitron-medium_sdf"
+	char_height "21"
+	space_size "16"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -2429,8 +2443,8 @@ research_white
 dialogs
 {
 	font "Exo2_Bold_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -2458,9 +2472,10 @@ dialogs
 
 quest_text_green
 {
-	font "Exo2_Bold_sdf"
-	char_height "23"
-	space_size "7"
+	--font "Exo2_Bold_sdf"
+	font "orbitron-medium_sdf"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -2549,8 +2564,11 @@ inventory_orange_36
 research_description_white
 {
 	font "Exo2_Bold_sdf"
-	char_height "26"
-	space_size "7"
+	char_height "30"
+	space_size "15"
+	
+    
+	
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -2580,7 +2598,7 @@ shortcuts_disabled
 {
 	font "orbitron-medium_sdf"
 	char_height "26"
-	space_size "7"
+	space_size "12"
 	color_enabled "1"
 	color "171,171,171"
 	alpha "1"
@@ -2639,8 +2657,8 @@ neutral_30
 neutral_25
 {
 	font "orbitron-medium_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "0"
 	color "255,255,255"
 	alpha "1"
@@ -2669,7 +2687,7 @@ neutral_25
 editor_default
 {
 	font "arial"
-	char_height "20"
+	char_height "26"
 	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
@@ -2729,8 +2747,8 @@ disabled_55
 disabled_25
 {
 	font "orbitron-medium_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "1"
 	color "171,171,171"
 	alpha "1"
@@ -2757,7 +2775,7 @@ disabled_25
 }
 
 objective_header
-{
+{   --what is this ???
 	font "Exo2_Bold_sdf"
 	char_height "23"
 	space_size "7"
@@ -2789,8 +2807,8 @@ objective_header
 header_24
 {
 	font "orbitron-medium_sdf"
-	char_height "24"
-	space_size "7"
+	char_height "30"
+	space_size "12"
 	color_enabled "0"
 	color "255,255,255"
 	alpha "1"
@@ -2849,8 +2867,8 @@ active_30_black
 category_name
 {
 	font "Exo2_Bold_sdf"
-	char_height "23"
-	space_size "7"
+	char_height "29"
+	space_size "12"
 	color_enabled "1"
 	color "255,195,78"
 	alpha "1"
@@ -2879,8 +2897,8 @@ category_name
 inventory_stats_24
 {
 	font "Exo2_Bold_sdf"
-	char_height "24"
-	space_size "7"
+	char_height "30"
+	space_size "12"
 	color_enabled "1"
 	color "160,255,255"
 	alpha "1"
@@ -2909,8 +2927,8 @@ inventory_stats_24
 inventory_stats
 {
 	font "Exo2_Bold_sdf"
-	char_height "27"
-	space_size "7"
+	char_height "34"
+	space_size "12"
 	color_enabled "1"
 	color "160,255,255"
 	alpha "1"
@@ -2939,8 +2957,8 @@ inventory_stats
 build_info_header_white
 {
 	font "orbitron-medium_sdf"
-	char_height "23"
-	space_size "7"
+	char_height "29"
+	space_size "12"
 	color_enabled "1"
 	color "101,235,255"
 	alpha "1"
@@ -3030,7 +3048,7 @@ disabled_30
 {
 	font "orbitron-medium_sdf"
 	char_height "30"
-	space_size "7"
+	space_size "12"
 	color_enabled "1"
 	color "171,171,171"
 	alpha "1"
@@ -3119,8 +3137,8 @@ item_level_3
 resource_green
 {
 	font "Exo2_Bold_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "51,242,81"
 	alpha "1"
@@ -3148,9 +3166,13 @@ resource_green
 
 research_description
 {
-	font "Exo2_Bold_sdf"
-	char_height "23"
-	space_size "7"
+    -- research menu,  long description above "includes" icons.
+	--font "Exo2_Bold_sdf"
+	--char_height "23"
+	--space_size "7"
+	font "orbitron-medium_sdf"
+	char_height "26"
+	space_size "8"
 	color_enabled "1"
 	color "147,205,255"
 	alpha "1"
@@ -3177,10 +3199,12 @@ research_description
 }
 
 quest_text
-{
-	font "Exo2_Bold_sdf"
-	char_height "23"
-	space_size "7"
+{   -- this is the main game screen left side quest 
+	-- font "Exo2_Bold_sdf"
+	--char_height "23" 
+	font "orbitron-medium_sdf"
+	char_height "27"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -3208,8 +3232,11 @@ quest_text
 
 research_description_yellow
 {
-	font "Exo2_Bold_sdf"
-	char_height "24"
+	-- font "Exo2_Bold_sdf"  research menu,  yellow cost and time 
+	-- char_height "24"
+	-- space_size "7"
+	font "orbitron-medium_sdf"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "255,195,78"
@@ -3239,8 +3266,8 @@ research_description_yellow
 build_info_header
 {
 	font "orbitron-medium_sdf"
-	char_height "23"
-	space_size "7"
+	char_height "29"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -3268,9 +3295,9 @@ build_info_header
 
 quest_time
 {
-	font "Exo2_Bold_sdf"
-	char_height "23"
-	space_size "7"
+	font "orbitron-medium_sdf"
+	char_height "27"
+	space_size "12"
 	color_enabled "1"
 	color "255,195,78"
 	alpha "1"
@@ -3300,7 +3327,7 @@ big_red
 {
 	font "Exo2_Bold_sdf"
 	char_height "40"
-	space_size "7"
+	space_size "12"
 	color_enabled "1"
 	color "242,51,51"
 	alpha "1"
@@ -3330,7 +3357,7 @@ debug_white_size_38
 {
 	font "AurulentSansMono-Regular_sdf"
 	char_height "38"
-	space_size "7"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -3359,8 +3386,8 @@ debug_white_size_38
 active_25
 {
 	font "orbitron-medium_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -3389,8 +3416,8 @@ active_25
 active_20
 {
 	font "orbitron-medium_sdf"
-	char_height "20"
-	space_size "7"
+	char_height "26"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -3420,7 +3447,7 @@ big_green
 {
 	font "Exo2_Bold_sdf"
 	char_height "40"
-	space_size "7"
+	space_size "12"
 	color_enabled "1"
 	color "0,255,57"
 	alpha "1"
@@ -3449,8 +3476,8 @@ big_green
 research_gray
 {
 	font "Exo2_Bold_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "128,128,128"
 	alpha "1"
@@ -3480,7 +3507,7 @@ shortcuts
 {
 	font "orbitron-medium_sdf"
 	char_height "26"
-	space_size "7"
+	space_size "12"
 	color_enabled "1"
 	color "101,235,255"
 	alpha "1"
@@ -3539,8 +3566,8 @@ active_30
 build_info_subheader_yellow
 {
 	font "orbitron-medium_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "255,195,78"
 	alpha "1"
@@ -3599,8 +3626,8 @@ active
 inventory_description_yellow_24
 {
 	font "Exo2_Bold_sdf"
-	char_height "24"
-	space_size "7"
+	char_height "30"
+	space_size "12"
 	color_enabled "1"
 	color "255,195,78"
 	alpha "1"
@@ -3628,8 +3655,8 @@ inventory_description_yellow_24
 inventory_description_yellow
 {
 	font "Exo2_Bold_sdf"
-	char_height "27"
-	space_size "7"
+	char_height "34"
+	space_size "12"
 	color_enabled "1"
 	color "255,195,78"
 	alpha "1"
@@ -3658,8 +3685,8 @@ inventory_description_yellow
 inventory_stats_green
 {
 	font "Exo2_Bold_sdf"
-	char_height "27"
-	space_size "7"
+	char_height "34"
+	space_size "12"
 	color_enabled "1"
 	color "92,232,114"
 	alpha "1"
@@ -3688,8 +3715,8 @@ inventory_stats_green
 resource_max
 {
 	font "Exo2_Bold_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "101,235,255"
 	alpha "1"
@@ -3718,8 +3745,8 @@ resource_max
 hp_green
 {
 	font "Exo2_Bold_sdf"
-	char_height "23"
-	space_size "7"
+	char_height "29"
+	space_size "12"
 	color_enabled "1"
 	color "0,255,57"
 	alpha "1"
@@ -3748,8 +3775,8 @@ hp_green
 day
 {
 	font "orbitron-medium_sdf"
-	char_height "23"
-	space_size "7"
+	char_height "29"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -3808,8 +3835,8 @@ header
 threat_green
 {
 	font "orbitron-medium_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "51,242,81"
 	alpha "1"
@@ -3839,7 +3866,7 @@ label_small
 {
 	font "Exo2_Bold_sdf"
 	char_height "28"
-	space_size "7"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -3868,8 +3895,9 @@ label_small
 quest_subheader
 {
 	font "orbitron-medium_sdf"
-	char_height "28"
-	space_size "7"
+	-- char_height "28"
+	char_height "30"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -3898,8 +3926,8 @@ quest_subheader
 hp_red
 {
 	font "Exo2_Bold_sdf"
-	char_height "23"
-	space_size "7"
+	char_height "29"
+	space_size "12"
 	color_enabled "1"
 	color "222,0,0"
 	alpha "1"
@@ -3928,8 +3956,8 @@ hp_red
 vote_white
 {
 	font "Exo2_Bold_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -3958,8 +3986,8 @@ vote_white
 vote_value
 {
 	font "Exo2_Bold_sdf"
-	char_height "25"
-	space_size "7"
+	char_height "33"
+	space_size "12"
 	color_enabled "1"
 	color "255,195,78"
 	alpha "1"
@@ -4018,8 +4046,8 @@ menu_header
 inventory_stats_icon
 {
 	font "Exo2_Bold_sdf"
-	char_height "27"
-	space_size "7"
+	char_height "34"
+	space_size "12"
 	color_enabled "1"
 	color "160,255,255"
 	alpha "1"
@@ -4078,8 +4106,8 @@ inventory_header
 inventory_header_22
 {
 	font "orbitron-medium_sdf"
-	char_height "24"
-	space_size "7"
+	char_height "30"
+	space_size "12"
 	color_enabled "1"
 	color "160,255,255"
 	alpha "1"
@@ -4108,8 +4136,8 @@ inventory_header_22
 inventory_header_24
 {
 	font "orbitron-medium_sdf"
-	char_height "24"
-	space_size "7"
+	char_height "30"
+	space_size "12"
 	color_enabled "1"
 	color "160,255,255"
 	alpha "1"
@@ -4168,8 +4196,8 @@ popups_content_red
 resource_red
 {
 	font "Exo2_Bold_sdf"
-	char_height "22"
-	space_size "7"
+	char_height "28"
+	space_size "12"
 	color_enabled "1"
 	color "255,73,73"
 	alpha "1"
@@ -4197,8 +4225,12 @@ resource_red
 
 research_header
 {
+    --rearch menu, on very top, research item name
+
 	font "orbitron-medium_sdf"
-	char_height "29"
+	-- char_height "29"
+	-- space_size "7"
+	char_height "30"
 	space_size "7"
 	color_enabled "1"
 	color "101,235,255"
@@ -4228,8 +4260,8 @@ research_header
 vote_descirption
 {
 	font "Exo2_Bold_sdf"
-	char_height "24"
-	space_size "7"
+	char_height "30"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -4288,7 +4320,7 @@ inventory
 debug_white
 {
 	font "AurulentSansMono-Regular_sdf"
-	char_height "18"
+	char_height "30"
 	space_size "7.75"
 	color_enabled "1"
 	color "255,255,255"
@@ -4379,8 +4411,8 @@ huge_icon_season
 small_menu_content_upsell
 {
 	font "Exo2_Bold_sdf"
-	char_height "27"
-	space_size "7"
+	char_height "34"
+	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
 	alpha "1"
@@ -4439,7 +4471,7 @@ mod_details_title
 mod_details_description
 {
 	font "droid_sans_fallback_exor_orbitron_sdf"
-	char_height "20"
+	char_height "26"
 	space_size "5"
 	color_enabled "1"
 	color "113,236,254"
@@ -4469,7 +4501,7 @@ mod_details_description
 mod_details_label
 {
 	font "orbitron-medium_sdf"
-	char_height "20"
+	char_height "26"
 	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
@@ -4499,7 +4531,7 @@ mod_details_label
 mod_details_value
 {
 	font "orbitron-medium_sdf"
-	char_height "20"
+	char_height "26"
 	space_size "12"
 	color_enabled "1"
 	color "116,232,255"
@@ -4529,7 +4561,7 @@ mod_details_value
 mod_details_value_user
 {
 	font "droid_sans_fallback_exor_orbitron_sdf"
-	char_height "20"
+	char_height "26"
 	space_size "12"
 	color_enabled "1"
 	color "116,232,255"
@@ -4619,7 +4651,7 @@ mod_tab_header
 mod_row_title
 {
 	font "droid_sans_fallback_exor_orbitron_sdf"
-	char_height "22"
+	char_height "28"
 	space_size "12"
 	color_enabled "1"
 	color "255,255,255"
@@ -4649,7 +4681,7 @@ mod_row_title
 mod_row_title_disabled
 {
 	font "droid_sans_fallback_exor_orbitron_sdf"
-	char_height "22"
+	char_height "28"
 	space_size "12"
 	color_enabled "1"
 	color "128,128,128"
@@ -4679,7 +4711,7 @@ mod_row_title_disabled
 mod_row_label
 {
 	font "droid_sans_fallback_exor_orbitron_sdf"
-	char_height "22"
+	char_height "28"
 	space_size "12"
 	color_enabled "1"
 	color "255,195,78"
@@ -4709,7 +4741,7 @@ mod_row_label
 mod_row_label_red
 {
 	font "orbitron-medium_sdf"
-	char_height "22"
+	char_height "28"
 	space_size "12"
 	color_enabled "1"
 	color "241,45,45"
@@ -4739,7 +4771,7 @@ mod_row_label_red
 mod_row_label_green
 {
 	font "orbitron-medium_sdf"
-	char_height "22"
+	char_height "28"
 	space_size "12"
 	color_enabled "1"
 	color "91,244,93"

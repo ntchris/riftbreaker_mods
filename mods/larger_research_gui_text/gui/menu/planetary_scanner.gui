@@ -895,7 +895,7 @@ GuiRootGroupDef
 				content "COMMON_Text_Line"
 				style
 				{
-					char_height "29.000"
+					char_height "32.000"
 					color
 					{
 						x "0.396"
@@ -1272,7 +1272,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								x "0.576"
@@ -1505,7 +1505,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								x "0.576"
@@ -1788,7 +1788,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								x "0.576"
@@ -2020,7 +2020,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								x "0.576"
@@ -2300,7 +2300,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								x "0.576"
@@ -2517,7 +2517,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								x "0.576"
@@ -2802,7 +2802,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								x "0.576"
@@ -3039,7 +3039,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								x "0.576"
@@ -3585,7 +3585,7 @@ GuiRootGroupDef
 										content "gui/menu/planetary_scanner/frame_header_global_objectives"
 										style
 										{
-											char_height "25.000"
+											char_height "28.000"
 											df "1"
 											font "orbitron-medium_sdf"
 											glow_color
@@ -4000,7 +4000,7 @@ GuiRootGroupDef
 										content "COMMON_Text_Line"
 										style
 										{
-											char_height "23.000"
+											char_height "27.000"
 											color
 											{
 												x "0.831"
@@ -4160,7 +4160,7 @@ GuiRootGroupDef
 										content "gui/menu/planetary_scanner/info_frame_prominent_resources"
 										style
 										{
-											char_height "21.000"
+											char_height "27.000"
 											color
 											{
 												x "0.396"
@@ -4280,7 +4280,7 @@ GuiRootGroupDef
 																content "COMMON_Text_Line"
 																style
 																{
-																	char_height "21.000"
+																	char_height "28.000"
 																	df "1"
 																	font "Exo2_Bold_sdf"
 																	glow_color
@@ -4392,7 +4392,7 @@ GuiRootGroupDef
 																content "COMMON_Text_Line"
 																style
 																{
-																	char_height "23.000"
+																	char_height "28.000"
 																	df "1"
 																	font "Exo2_Bold_sdf"
 																	glow_color
@@ -4533,7 +4533,7 @@ GuiRootGroupDef
 																content "COMMON_Text_Line"
 																style
 																{
-																	char_height "21.000"
+																	char_height "28.000"
 																	df "1"
 																	font "Exo2_Bold_sdf"
 																	glow_color
@@ -4645,7 +4645,7 @@ GuiRootGroupDef
 																content "COMMON_Text_Line"
 																style
 																{
-																	char_height "23.000"
+																	char_height "28.000"
 																	df "1"
 																	font "Exo2_Bold_sdf"
 																	glow_color
@@ -4787,7 +4787,7 @@ GuiRootGroupDef
 																content "COMMON_Text_Line"
 																style
 																{
-																	char_height "21.000"
+																	char_height "28.000"
 																	df "1"
 																	font "Exo2_Bold_sdf"
 																	glow_color
@@ -4899,7 +4899,7 @@ GuiRootGroupDef
 																content "COMMON_Text_Line"
 																style
 																{
-																	char_height "23.000"
+																	char_height "28.000"
 																	df "1"
 																	font "Exo2_Bold_sdf"
 																	glow_color
@@ -5046,7 +5046,7 @@ GuiRootGroupDef
 																content "COMMON_Text_Line"
 																style
 																{
-																	char_height "21.000"
+																	char_height "28.000"
 																	df "1"
 																	font "Exo2_Bold_sdf"
 																	glow_color
@@ -5158,7 +5158,7 @@ GuiRootGroupDef
 																content "COMMON_Text_Line"
 																style
 																{
-																	char_height "23.000"
+																	char_height "28.000"
 																	df "1"
 																	font "Exo2_Bold_sdf"
 																	glow_color
@@ -5611,7 +5611,7 @@ GuiRootGroupDef
 										content "gui/menu/planetary_scanner/info_frame_threat_level"
 										style
 										{
-											char_height "21.000"
+											char_height "28.000"
 											df "1"
 											font "orbitron-medium_sdf"
 											glow_color
@@ -5725,7 +5725,7 @@ GuiRootGroupDef
 										content "gui/menu/planetary_scanner/info_frame.title.biom_name"
 										style
 										{
-											char_height "25.000"
+											char_height "28.000"
 											color
 											{
 												y "0.765"
@@ -6237,7 +6237,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								x "0.576"
@@ -6471,7 +6471,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								x "0.576"
@@ -6747,7 +6747,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								x "0.576"
@@ -6980,7 +6980,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								x "0.576"
@@ -7278,7 +7278,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								x "0.576"
@@ -7511,7 +7511,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								x "0.576"
@@ -7757,7 +7757,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								x "0.576"
@@ -8002,7 +8002,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								x "0.576"
@@ -8320,7 +8320,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								x "0.576"
@@ -8393,7 +8393,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								y "0.765"
@@ -8634,7 +8634,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								x "0.576"
@@ -8707,7 +8707,7 @@ GuiRootGroupDef
 																						content "DIALOG/demo/mech_base_defenses_01"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "26.000"
 																							color
 																							{
 																								y "0.765"
@@ -9191,7 +9191,7 @@ GuiRootGroupDef
 										content "gui/menu/planetary_scanner/frame_header_local_objectives"
 										style
 										{
-											char_height "25.000"
+											char_height "27.000"
 											df "1"
 											font "orbitron-medium_sdf"
 											glow_color
@@ -9612,7 +9612,7 @@ GuiRootGroupDef
 										content "gui/menu/planetary_scanner/main_frame.title.avilable_locations"
 										style
 										{
-											char_height "25.000"
+											char_height "27.000"
 											df "1"
 											font "orbitron-medium_sdf"
 											glow_color
@@ -9941,7 +9941,7 @@ GuiRootGroupDef
 																			content "COMMON_Text_Line"
 																			style
 																			{
-																				char_height "25.000"
+																				char_height "27.000"
 																				color
 																				{
 																					x "0.000"
@@ -10063,7 +10063,7 @@ GuiRootGroupDef
 																			content "COMMON_Text_Line"
 																			style
 																			{
-																				char_height "25.000"
+																				char_height "27.000"
 																				color
 																				{
 																					x "0.000"
@@ -10201,7 +10201,7 @@ GuiRootGroupDef
 																			content "COMMON_Text_Line"
 																			style
 																			{
-																				char_height "25.000"
+																				char_height "27.000"
 																				color
 																				{
 																					x "0.671"
@@ -10308,7 +10308,7 @@ GuiRootGroupDef
 																			content "COMMON_Text_Line"
 																			style
 																			{
-																				char_height "25.000"
+																				char_height "27.000"
 																				color
 																				{
 																					x "0.671"
@@ -10501,7 +10501,7 @@ GuiRootGroupDef
 																			content "COMMON_Text_Line"
 																			style
 																			{
-																				char_height "25.000"
+																				char_height "27.000"
 																				color_enabled "0"
 																				df "1"
 																				font "orbitron-medium_sdf"
@@ -10616,7 +10616,7 @@ GuiRootGroupDef
 																			content "COMMON_Text_Line"
 																			style
 																			{
-																				char_height "25.000"
+																				char_height "27.000"
 																				color_enabled "0"
 																				df "1"
 																				font "orbitron-medium_sdf"

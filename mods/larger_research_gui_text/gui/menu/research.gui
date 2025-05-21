@@ -238,7 +238,7 @@ GuiRootGroupDef
 				content "gui/menu/research/info_alien_speed"
 				style
 				{
-					char_height "21.000"
+					char_height "35.000"
 					color
 					{
 						y "0.765"
@@ -1682,7 +1682,8 @@ GuiRootGroupDef
 				content "COMMON_Text_Line"
 				style
 				{
-					char_height "25.000"
+				 -- what is this??
+					char_height "36.000"
 					color
 					{
 						y "0.659"
@@ -1756,7 +1757,7 @@ GuiRootGroupDef
 							content "gui/menu/research/requirement"
 							style
 							{
-								char_height "35.000"
+								char_height "36.000"
 								color
 								{
 									x "0.447"
@@ -2129,7 +2130,7 @@ GuiRootGroupDef
 							content "gui/menu/research/hidden_research_name"
 							style
 							{
-								char_height "25.000"
+								char_height "35.000"
 								color
 								{
 									x "0.671"
@@ -2288,7 +2289,7 @@ GuiRootGroupDef
 																content "gui/menu/research/cost"
 																style
 																{
-																	char_height "26.000"
+																	char_height "36.000"
 																	color
 																	{
 																		x "0.576"
@@ -2382,7 +2383,7 @@ GuiRootGroupDef
 																content "gui/menu/research/cost"
 																style
 																{
-																	char_height "24.000"
+																	char_height "36.000"
 																	color
 																	{
 																		y "0.765"
@@ -2513,7 +2514,7 @@ GuiRootGroupDef
 													content "gui/menu/research/cost"
 													style
 													{
-														char_height "24.000"
+														char_height "36.000"
 														color
 														{
 															y "0.765"
@@ -2575,7 +2576,7 @@ GuiRootGroupDef
 													content "gui/menu/research/research_time"
 													style
 													{
-														char_height "26.000"
+														char_height "30.000"
 														color
 														{
 															x "0.576"
@@ -2705,7 +2706,8 @@ GuiRootGroupDef
 							content "COMMON_Text_Line"
 							style
 							{
-								char_height "21.000"
+							   -- what is this???
+								char_height "99.000"
 								color
 								{
 									x "0.576"
@@ -2713,7 +2715,8 @@ GuiRootGroupDef
 								}
 
 								df "1"
-								font "Exo2_Bold_sdf"
+								--font "Exo2_Bold_sdf"
+								font "orbitron-medium_sdf"
 								glow_color
 								{
 									w "0.000"
@@ -2736,6 +2739,8 @@ GuiRootGroupDef
 							}
 
 							style_name "research_description"
+						    -- research menu,  long description above "includes" icons.
+
 							translate "1"
 							bindings
 							{
@@ -2772,7 +2777,7 @@ GuiRootGroupDef
 							content "gui/menu/research.research_completed"
 							style
 							{
-								char_height "26.000"
+								char_height "28.000"
 								color
 								{
 									x "0.576"
@@ -2839,7 +2844,7 @@ GuiRootGroupDef
 							content "gui/menu/research/includes"
 							style
 							{
-								char_height "26.000"
+								char_height "36.000"
 								color
 								{
 									x "0.576"
@@ -3333,7 +3338,7 @@ GuiRootGroupDef
 							content "COMMON_Text_Line"
 							style
 							{
-								char_height "29.000"
+								char_height "23.000"
 								color
 								{
 									x "0.396"
@@ -3364,6 +3369,7 @@ GuiRootGroupDef
 							}
 
 							style_name "research_header"
+							-- research menu, on very top, research item name
 							translate "1"
 							alignment "left"
 							bindings
@@ -3401,7 +3407,7 @@ GuiRootGroupDef
 							content "COMMON_Text_Line"
 							style
 							{
-								char_height "21.000"
+								char_height "39.000"
 								color
 								{
 									y "0.765"
@@ -3432,6 +3438,7 @@ GuiRootGroupDef
 							}
 
 							style_name "resource_value"
+							   -- for research menu, includes icon item names
 							translate "1"
 							bindings
 							{
@@ -3581,7 +3588,7 @@ GuiRootGroupDef
 				content "gui/menu/research/research_speed"
 				style
 				{
-					char_height "26.000"
+					char_height "35.000"
 					color
 					{
 						x "0.576"
@@ -3589,7 +3596,7 @@ GuiRootGroupDef
 					}
 
 					df "1"
-					font "Exo2_Bold_sdf"
+					font "orbitron-medium_sdf"
 					glow_color
 					{
 						w "0.000"
@@ -3654,7 +3661,7 @@ GuiRootGroupDef
 				content "COMMON_Text_Line"
 				style
 				{
-					char_height "28.000"
+					char_height "36.000"
 					color
 					{
 						y "0.765"
@@ -3731,7 +3738,7 @@ GuiRootGroupDef
 							content "gui/menu/research/research_time"
 							style
 							{
-								char_height "26.000"
+								char_height "30.000"
 								color
 								{
 									x "0.576"
@@ -3791,7 +3798,7 @@ GuiRootGroupDef
 							content "gui/hud/no_research"
 							style
 							{
-								char_height "25.000"
+								char_height "35.000"
 								df "1"
 								font "orbitron-medium_sdf"
 								glow_color
@@ -3898,7 +3905,7 @@ GuiRootGroupDef
 																						content "gui/menu/research/research_time"
 																						style
 																						{
-																							char_height "23.000"
+																							char_height "30.000"
 																							color
 																							{
 																								x "0.000"
@@ -3984,18 +3991,20 @@ GuiRootGroupDef
 																				Pair_String_GuiDef2
 																				{
 																					key "research_name"
+																					-- research name in queue
 																					value "GuiTextBoxDef"
 																					{
 																						max_size
 																						{
-																							x "320.000"
+																							--x "320.000"
+																							x "355.000"
 																							y "45.000"
 																						}
 
 																						content "COMMON_Text_Line"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "23.000"
 																							color
 																							{
 																								x "0.000"
@@ -4094,7 +4103,7 @@ GuiRootGroupDef
 																						content "gui/menu/research/research_time"
 																						style
 																						{
-																							char_height "23.000"
+																							char_height "30.000"
 																							color
 																							{
 																								x "0.000"
@@ -4184,14 +4193,15 @@ GuiRootGroupDef
 																					{
 																						max_size
 																						{
-																							x "320.000"
+																							--x "320.000"
+																							x "355.000"
 																							y "45.000"
 																						}
 
 																						content "COMMON_Text_Line"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "23.000"
 																							color
 																							{
 																								x "0.000"
@@ -4290,7 +4300,7 @@ GuiRootGroupDef
 																						content "gui/menu/research/research_time"
 																						style
 																						{
-																							char_height "23.000"
+																							char_height "30.000"
 																							df "1"
 																							font "Exo2_Bold_sdf"
 																							glow_color
@@ -4387,14 +4397,15 @@ GuiRootGroupDef
 																					{
 																						max_size
 																						{
-																							x "320.000"
+																							--x "320.000"
+																							x "355.000"
 																							y "45.000"
 																						}
 
 																						content "COMMON_Text_Line"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "23.000"
 																							color
 																							{
 																								x "0.627"
@@ -4477,7 +4488,7 @@ GuiRootGroupDef
 																						content "gui/menu/research/research_time"
 																						style
 																						{
-																							char_height "23.000"
+																							char_height "30.000"
 																							df "1"
 																							font "Exo2_Bold_sdf"
 																							glow_color
@@ -4574,14 +4585,15 @@ GuiRootGroupDef
 																					{
 																						max_size
 																						{
-																							x "320.000"
+																							--x "320.000"
+																							x "355.000"
 																							y "45.000"
 																						}
 
 																						content "COMMON_Text_Line"
 																						style
 																						{
-																							char_height "21.000"
+																							char_height "23.000"
 																							color
 																							{
 																								x "0.627"
@@ -4670,7 +4682,7 @@ GuiRootGroupDef
 																			content "COMMON_Text_Line"
 																			style
 																			{
-																				char_height "21.000"
+																				char_height "39.000"
 																				df "1"
 																				font "Exo2_Bold_sdf"
 																				glow_color
@@ -4695,6 +4707,8 @@ GuiRootGroupDef
 																			}
 
 																			style_name "research_white"
+																			    -- for  research queue order
+
 																			translate "1"
 																			alignment "center"
 																			anchor "left"
@@ -4994,7 +5008,7 @@ GuiRootGroupDef
 							content "gui/menu/research.research_queue"
 							style
 							{
-								char_height "26.000"
+								char_height "35.000"
 								color
 								{
 									x "0.576"
@@ -5184,7 +5198,8 @@ GuiRootGroupDef
 																content "gui/menu/research/add_to_research"
 																style
 																{
-																	char_height "26.000"
+																	-- char_height "36.000"
+																	char_height "38.000"
 																	color
 																	{
 																		x "0.396"
@@ -5416,7 +5431,7 @@ GuiRootGroupDef
 																content "gui/menu/research/add_to_research"
 																style
 																{
-																	char_height "26.000"
+																	char_height "38.000"
 																	color
 																	{
 																		x "0.396"
@@ -5695,7 +5710,8 @@ GuiRootGroupDef
 																content "gui/menu/research/remove_from_research"
 																style
 																{
-																	char_height "26.000"
+																	--char_height "36.000"
+																	char_height "38.000"
 																	color
 																	{
 																		x "0.396"
@@ -5927,7 +5943,7 @@ GuiRootGroupDef
 																content "gui/menu/research/remove_from_research"
 																style
 																{
-																	char_height "26.000"
+																	char_height "36.000"
 																	color
 																	{
 																		x "0.396"
@@ -6206,7 +6222,7 @@ GuiRootGroupDef
 																content "gui/menu/research/shortcut_move_in_queue"
 																style
 																{
-																	char_height "26.000"
+																	char_height "36.000"
 																	color
 																	{
 																		x "0.396"
@@ -6438,7 +6454,7 @@ GuiRootGroupDef
 																content "gui/menu/research/shortcut_move_in_queue"
 																style
 																{
-																	char_height "26.000"
+																	char_height "36.000"
 																	color
 																	{
 																		x "0.396"
@@ -7948,7 +7964,7 @@ GuiRootGroupDef
 																		{
 																			style
 																			{
-																				char_height "21.000"
+																				char_height "40.000"
 																				color
 																				{
 																					x "0.627"
@@ -7978,6 +7994,7 @@ GuiRootGroupDef
 																			}
 
 																			style_name "research_blue"
+																			-- order in the research main map ( lines )
 																			alignment "center"
 																			bindings
 																			{
