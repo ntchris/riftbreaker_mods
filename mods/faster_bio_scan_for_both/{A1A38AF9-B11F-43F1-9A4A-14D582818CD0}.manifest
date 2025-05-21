@@ -1,0 +1,17 @@
+WorkspaceManifest
+{
+	description "ZmFzdGVyX2Jpb19zY2FuX2Zvcl9ib3RoIGF1dG8gc2NhbiB0dXJyZW50IGFuZCBtYW51YWwgc2Nhbg=="
+	tags
+	modified_game_files
+	title "ZmFzdGVyX2Jpb19zY2FuX2Zvcl9ib3Ro"
+	homepage
+	modio_published_file "0"
+	visibility "1"
+	game_version "EXE: 1033 DATA: 640"
+	version
+	localizations
+	author ntchris
+	steam_published_file "0"
+	dependencies
+}
+
