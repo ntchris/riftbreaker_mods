@@ -27,7 +27,8 @@ BLUE = "0, 0, 255"
 PURPLE = "255, 0, 255"
 ORANGE = "255, 155, 0"
 TEAL = "0, 255, 255"
-_new_colors_list = [RED, BLUE, ORANGE, PURPLE, TEAL]
+BLACK = "0, 0, 0"
+_new_colors_list = [RED, BLUE, ORANGE, PURPLE, TEAL, BLACK]
 _color_index = 0
 
 
@@ -55,8 +56,15 @@ def parse_kvp_lines(lines):
       if not line:
          # empty line, ignore
          continue
+      # process comment including inline comment  abcd -- comment
       if KVP_COMMENT in line:
-         line, comment= line.split(KVP_COMMENT)
+         if line.startswith(KVP_COMMENT):
+            comment = line
+            line=""
+         else:
+            line, comment = line.split(KVP_COMMENT)
+            line = line.strip()
+            #print(f"~~{line=}~~ {comment=}")
       else:
          comment =""
       if state == STATE_FIND_KVP_NAME:
@@ -88,7 +96,7 @@ def parse_kvp_lines(lines):
                key,val = line.split(KEY_VALUE_SEP)
                val= val.strip(QUOTE)
             except Exception as e:
-               print(f"wrong key value format in file line #{line_num} : {line}")
+               print(f"wrong key value format in file line #{line_num} : {line} error:{e}")
 
             kv_items[key]=val
 
@@ -185,6 +193,10 @@ def data_to_kvp_file(data, output_file, indent="\t"):
          for k,v in data_items.items():
             if k.startswith(COMMENT_KEY_NAME):
                line=v
+            elif k==COMMENT_CONFIRMED:
+               # ignore confirm=True field, write nothing
+               continue
+               pass
             else:
                line = f"{k}{KEY_VALUE_SEP}{QUOTE}{v}{QUOTE}"
             line=f"{indent}{line}\n"
