@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/font_size_mod.iml" filepath="$PROJECT_DIR$/.idea/font_size_mod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/kvp_parser.iml" filepath="$PROJECT_DIR$/.idea/kvp_parser.iml" />
     </modules>
   </component>
 </project>
