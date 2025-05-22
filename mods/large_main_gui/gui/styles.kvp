@@ -1,6 +1,5 @@
 resource_value_smaller
-{   
-    -- confirmed resource
+{   -- confirmed resource
 	font "Exo2_Bold_sdf"
 	-- char_height "18"
 	char_height "23"
@@ -29,10 +28,10 @@ resource_value_smaller
 	stroke_position "0"
 	stroke_size "0"
 }
-
+--what3
+--what4
 threat_yellow
-{
-    -- confirmed orbital scanner
+{   -- confirmed orbital scanner
 	font "orbitron-medium_sdf"
 	-- char_height "22"
 	char_height "32"
@@ -454,8 +453,9 @@ smallest_orbiton_item_level_1
 
 tooltip_small_white
 {
+    -- confirmed menu crafting equiment DPS value
 	font "orbitron-medium_sdf"
-	char_height "18"
+	char_height "28"
 	space_size "6"
 	color_enabled "1"
 	color "255,255,255"
@@ -608,9 +608,10 @@ quest_header_blue
 }
 
 quest_text_blue
-{
-	font "Exo2_Bold_sdf"
-	char_height "23"
+{   -- confirmed quest
+	font "Exo2_Bold_sdf"	 
+	--char_height "26"
+	char_height "30"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
@@ -639,8 +640,10 @@ quest_text_blue
 
 hp_orange
 {
+    -- confirmed main game hud hp shield
 	font "Exo2_Bold_sdf"
-	char_height "23"
+	-- char_height "23"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "252,166,0"
@@ -728,9 +731,10 @@ selected_30
 }
 
 quest_active_time
-{
+{   -- confirmed quest
 	font "Exo2_Bold_sdf"
-	char_height "23"
+	-- char_height "23"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "0,0,0"
@@ -822,8 +826,9 @@ resource_white_smaller
 
 build_info_subheader
 {
+    -- confirmed, main game hud building info
 	font "orbitron-medium_sdf"
-	char_height "22"
+	char_height "27"
 	space_size "7"
 	color_enabled "1"
 	color "101,235,255"
@@ -1156,6 +1161,7 @@ resource_yellow
 
 quest_header
 {
+    -- confirmed quest
 	font "orbitron-medium_sdf"
 	char_height "32"
 	space_size "12"
@@ -1186,8 +1192,10 @@ quest_header
 
 hp_green_inventory
 {
+    -- confirmed hp in inventory
 	font "orbitron-medium_sdf"
-	char_height "26"
+	-- char_height "26"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "0,255,57"
@@ -1248,8 +1256,10 @@ resource_white
 
 bilans_green
 {
+    -- confirmed main game hud resource delta
 	font "Exo2_Bold_sdf"
-	char_height "23"
+	-- char_height "23"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "51,248,81"
@@ -1739,8 +1749,10 @@ resource_green_smaller
 
 bilans_red
 {
+    -- confirmed main game hud resource delta
 	font "Exo2_Bold_sdf"
-	char_height "23"
+	-- char_height "23"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "242,51,51"
@@ -1769,8 +1781,10 @@ bilans_red
 
 hp_blue
 {
+    -- confirmed hp
 	font "Exo2_Bold_sdf"
-	char_height "23"
+	-- char_height "23"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "0,229,252"
@@ -1859,6 +1873,7 @@ research_black
 
 quest_header_green
 {
+    -- confirmed quest
 	font "orbitron-medium_sdf"
 	char_height "32"
 	space_size "12"
@@ -2074,8 +2089,10 @@ small_item_level_3
 
 hp_blue_inventory
 {
+    -- confirmed hp in menu inventory
 	font "orbitron-medium_sdf"
-	char_height "26"
+	-- char_height "26"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "0,229,252"
@@ -2194,8 +2211,9 @@ smallest_item_level_0
 
 tooltip_small_yellow
 {
+    -- confirmed it menu crafting equipment "DPS:"
 	font "orbitron-medium_sdf"
-	char_height "18"
+	char_height "28"
 	space_size "6"
 	color_enabled "1"
 	color "255,190,0"
@@ -2501,8 +2519,10 @@ dialogs
 
 quest_text_green
 {
+    -- confirmed quest
 	font "Exo2_Bold_sdf"
-	char_height "23"
+	-- char_height "23"
+	char_height "27"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
@@ -3233,7 +3253,7 @@ quest_text
 	font "orbitron-medium_sdf"
 	--char_height "23" 
 	--space_size "7"
-	char_height "29" 
+	char_height "26"
 	space_size "12"
 	
 	color_enabled "1"
@@ -3297,8 +3317,10 @@ research_description_yellow
 
 build_info_header
 {
+ -- confirmed main game hud building header
 	font "orbitron-medium_sdf"
-	char_height "23"
+	char_height "28"
+	-- char_height "23"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
@@ -3326,9 +3348,10 @@ build_info_header
 }
 
 quest_time
-{
+{   -- confirmed quest
 	font "Exo2_Bold_sdf"
-	char_height "23"
+	--char_height "23"
+	char_height "26"
 	space_size "7"
 	color_enabled "1"
 	color "255,195,78"
@@ -3446,9 +3469,10 @@ active_25
 }
 
 active_20
-{
+{   ---  confirmed menu inventory equipment DPS
+
 	font "orbitron-medium_sdf"
-	char_height "20"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
@@ -3778,9 +3802,10 @@ resource_max
 }
 
 hp_green
-{
+{   -- confirmed main game hud
 	font "Exo2_Bold_sdf"
-	char_height "23"
+	-- char_height "23"
+	char height "28"
 	space_size "7"
 	color_enabled "1"
 	color "0,255,57"
@@ -3931,8 +3956,10 @@ label_small
 
 quest_subheader
 {
+    -- confirmed quest
 	font "orbitron-medium_sdf"
-	char_height "28"
+	-- char_height "28"
+	char_height "30"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
@@ -3961,8 +3988,10 @@ quest_subheader
 
 hp_red
 {
+    -- confirmed hp
 	font "Exo2_Bold_sdf"
-	char_height "23"
+	-- char_height "23"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "222,0,0"

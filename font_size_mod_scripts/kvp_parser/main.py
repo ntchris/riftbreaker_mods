@@ -19,7 +19,9 @@ COMMENT_KEY_NAME = "comment"
 COMMENT_CONFIRMED = "confirmed"
 KVP_COMMENT = "--"
 MIN_CHAR_SIZE=0
-MAX_CHAR_SIZE=22
+#MAX_CHAR_SIZE=23
+
+MAX_CHAR_SIZE=24
 
 CHAR_LARGER = 20
 RED = "255, 0, 0"
@@ -32,6 +34,17 @@ _new_colors_list = [RED, BLUE, ORANGE, PURPLE, TEAL, BLACK]
 _color_index = 0
 
 
+def add_comments(comment_list, kv_items):
+   comment_index = 0
+   if comment_list:
+      for comment in comment_list:
+         comment_key_name = f"{COMMENT_KEY_NAME}{comment_index}"
+         kv_items[comment_key_name] = f"{KVP_COMMENT}{comment}"  # --abcd
+         comment_index+=1
+         if COMMENT_CONFIRMED in comment:
+            kv_items[COMMENT_CONFIRMED] = True
+
+   return comment_index
 
 def parse_kvp_lines(lines):
 
@@ -43,11 +56,12 @@ def parse_kvp_lines(lines):
    BRACKET_END = "}"
 
    state = STATE_FIND_KVP_NAME
-   kvp_name = "unknown kvp name"
    line_num = 0
-
+   kvp_name = None
    all_kvp_dict_list = []
    one_kvp_dict = None
+   #pre_kvp_name_comment_list = []
+   comment_list = []
    for line in lines:
       line_num += 1
       line = line.strip()
@@ -59,27 +73,29 @@ def parse_kvp_lines(lines):
       # process comment including inline comment  abcd -- comment
       if KVP_COMMENT in line:
          if line.startswith(KVP_COMMENT):
-            comment = line
+
+            comment_list.append(line)
             line=""
+            continue
          else:
             line, comment = line.split(KVP_COMMENT)
             line = line.strip()
+            comment_list.append(comment)
             #print(f"~~{line=}~~ {comment=}")
-      else:
-         comment =""
+
+
       if state == STATE_FIND_KVP_NAME:
          items_for_one_kvp = dict()
          kvp_name = line
-         #if kvp_name=="hp_orange":
          print(f"{kvp_name}")
          one_kvp_dict = dict()
          kv_items=dict()
-         comment_index=0
          one_kvp_dict[kvp_name]=kv_items
 
          all_kvp_dict_list.append(one_kvp_dict)
 
          state = STATE_FIND_KVP_BRACKET_START
+
 
       elif state == STATE_FIND_KVP_BRACKET_START:
          if line.startswith(BRACKET_START):
@@ -89,8 +105,10 @@ def parse_kvp_lines(lines):
       elif state == STATE_FIND_KVP_ITEM:
          if line==BRACKET_END:
             # ended!
+            count = add_comments(comment_list, kv_items)
+            comment_list = []
             state = STATE_FIND_KVP_NAME
-
+            kvp_name = None
          elif line:
             try:
                key,val = line.split(KEY_VALUE_SEP)
@@ -103,16 +121,7 @@ def parse_kvp_lines(lines):
       else:
          raise Exception(f"error, line is not properly handled. {line}")
 
-      if comment:
-         comment_key_name = f"{COMMENT_KEY_NAME}{comment_index}"
-         kv_items[comment_key_name] = f"{KVP_COMMENT}{comment}"  #--abcd
-         comment_index += 1
-         if COMMENT_CONFIRMED in comment:
-            kv_items[COMMENT_CONFIRMED]=True
-         continue
-      #elif  state == STATE_FIND_KVP_BRACKET_END:
-      #   state = STATE_FIND_KVP_NAME
-      #   continue
+
    return all_kvp_dict_list
 
 
@@ -210,6 +219,7 @@ def main():
    changed_count = analyze_kvp_json(kvp_list)
    print(f"changed {changed_count} items!")
    data_to_kvp_file(kvp_list, OUTOUT_KVP_FILE)
+   print("drag the updated version of styles.kvp to \\\\The Riftbreaker\packs\startup\01_win_startup.zip 7zip GUI in <gui> dir.")
 
 
 # Press the green button in the gutter to run the script.
