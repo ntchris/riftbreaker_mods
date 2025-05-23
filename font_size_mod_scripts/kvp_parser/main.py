@@ -18,12 +18,12 @@ COLOR_KEY_NAME = "color"
 COMMENT_KEY_NAME = "comment"
 COMMENT_CONFIRMED = "confirmed"
 KVP_COMMENT = "--"
-MIN_CHAR_SIZE=20
+MIN_CHAR_SIZE=10
 #MAX_CHAR_SIZE=23
 #MAX_CHAR_SIZE=24
-MAX_CHAR_SIZE=25
+MAX_CHAR_SIZE=30
 
-CHAR_LARGER = 10
+CHAR_LARGER = 20
 RED = "255, 0, 0"
 BLUE = "0, 0, 255"
 PURPLE = "255, 0, 255"
@@ -73,7 +73,7 @@ def parse_kvp_lines(lines):
       # process comment including inline comment  abcd -- comment
       if KVP_COMMENT in line:
          if line.startswith(KVP_COMMENT):
-
+            line = line.replace(KVP_COMMENT,"")
             comment_list.append(line)
             line=""
             continue
@@ -182,13 +182,14 @@ def check_and_change_char_height(kvp, min, max):
             print(f"changed, new {kvp_name}")
    return changed
 def analyze_kvp_json(kvp_list):
-   total_changed = 0
+   changed_kvp_list = []
    for kvp in kvp_list:
       # print(f"kvp={kvp}")
       changed = check_and_change_char_height(kvp, MIN_CHAR_SIZE, MAX_CHAR_SIZE)
       if changed:
-         total_changed+=1
-   return total_changed
+         kvp_name = list(kvp.keys())[0]
+         changed_kvp_list.append(kvp_name)
+   return changed_kvp_list
 def data_to_kvp_file(data, output_file, indent="\t"):
    # not good, bad format , json_string = json.dumps(data, indent=4)
    #space=" "*indent
@@ -216,8 +217,8 @@ def data_to_kvp_file(data, output_file, indent="\t"):
 
 def main():
    kvp_list = parse_kvp_file_to_json_file(KVP_FILE)
-   changed_count = analyze_kvp_json(kvp_list)
-   print(f"changed {changed_count} items!")
+   changed_list = analyze_kvp_json(kvp_list)
+   print(f"changed {changed_list} items!")
    data_to_kvp_file(kvp_list, OUTOUT_KVP_FILE)
    print("drag the updated version of styles.kvp to \\\\The Riftbreaker\packs\startup\01_win_startup.zip 7zip GUI in <gui> dir.")
 

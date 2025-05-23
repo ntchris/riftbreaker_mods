@@ -1,0 +1,437 @@
+GuiRootGroupDef
+{
+	full_screen "2"
+	children
+	{
+		Pair_String_GuiDef2
+		{
+			key "resource_popup"
+			value "GuiGroupDef"
+			{
+				children
+				{
+					Pair_String_GuiDef2
+					{
+						key "amount"
+						value "GuiTextLineDef"
+						{
+							content "COMMON_Text_Line"
+							style
+							{
+								char_height "28.000"
+								color
+								{
+									y "0.659"
+									z "0.000"
+								}
+
+								df "1"
+								font "Exo2_Bold_sdf"
+								glow_color
+								{
+									w "0.000"
+								}
+
+								glow_size "0.000"
+								glow_spread "0.000"
+								shadow_angle "135.000"
+								shadow_color
+								{
+									w "0.850"
+								}
+
+								shadow_distance "2.000"
+								shadow_enabled "1"
+								shadow_spread "0.000"
+								space_size "7.000"
+								stroke_position "0"
+								stroke_size "0.000"
+							}
+
+							style_name "resource_value_smaller"
+							translate "1"
+							bindings
+							{
+								content
+								{
+									model_field "description"
+								}
+
+							}
+
+							id "amount"
+							offset
+							{
+								x "63.000"
+								y "31.000"
+							}
+
+							z_order "5.000"
+						}
+
+					}
+
+					Pair_String_GuiDef2
+					{
+						key "bg"
+						value "GuiImageDef"
+						{
+							error_material "gui/default"
+							material "gui/hud/resource_pop_up_bg"
+							id "bg"
+							offset
+							{
+								x "4.000"
+								y "6.000"
+							}
+
+							z_order "6.000"
+						}
+
+					}
+
+					Pair_String_GuiDef2
+					{
+						key "bg_fill"
+						value "GuiImageDef"
+						{
+							error_material "gui/default"
+							material "gui/hud/interact_frame_fill"
+							id "bg_fill"
+							offset
+							{
+								x "112.000"
+							}
+
+							z_order "3.000"
+						}
+
+					}
+
+					Pair_String_GuiDef2
+					{
+						key "bg_left"
+						value "GuiImageDef"
+						{
+							error_material "gui/default"
+							material "gui/hud/interact_frame_left"
+							id "bg_left"
+							z_order "2.000"
+						}
+
+					}
+
+					Pair_String_GuiDef2
+					{
+						key "bg_right"
+						value "GuiImageDef"
+						{
+							error_material "gui/default"
+							material "gui/hud/interact_frame_right"
+							id "bg_right"
+							offset
+							{
+								x "116.000"
+							}
+
+							z_order "4.000"
+						}
+
+					}
+
+					Pair_String_GuiDef2
+					{
+						key "icon"
+						value "GuiImageDef"
+						{
+							error_material "gui/default"
+							material "gui/hud/resource_icons/missing_item_bigger"
+							alignment "center"
+							bindings
+							{
+								material
+								{
+									model_field "icon_material"
+								}
+
+							}
+
+							id "icon"
+							offset
+							{
+								x "29.000"
+								y "31.000"
+							}
+
+							scale
+							{
+								x "0.700"
+								y "0.700"
+							}
+
+							z_order "8.000"
+						}
+
+					}
+
+					Pair_String_GuiDef2
+					{
+						key "resource"
+						value "GuiTextLineDef"
+						{
+							capitals "1"
+							content "COMMON_Text_Line"
+							style
+							{
+								char_height "31.000"
+								color
+								{
+									x "0.000"
+									y "0.953"
+								}
+
+								df "1"
+								font "Exo2_Bold_sdf"
+								glow_color
+								{
+									w "0.000"
+								}
+
+								glow_size "0.000"
+								glow_spread "0.000"
+								shadow_angle "135.000"
+								shadow_color
+								{
+									w "0.850"
+								}
+
+								shadow_distance "2.000"
+								shadow_enabled "1"
+								shadow_spread "0.000"
+								space_size "7.000"
+								stroke_position "0"
+								stroke_size "0.000"
+							}
+
+							style_name "resource_blue_smaller"
+							translate "1"
+							bindings
+							{
+								content
+								{
+									model_field "content"
+								}
+
+							}
+
+							id "resource"
+							offset
+							{
+								x "63.000"
+								y "11.000"
+							}
+
+							z_order "7.000"
+						}
+
+					}
+
+				}
+
+				alignment "center"
+				animations
+				{
+					items
+					{
+						GuiAnimationDef
+						{
+							frames
+							{
+								GuiAnimationFrame
+								GuiAnimationFrame
+								{
+									color
+									{
+										w "-1.000"
+									}
+
+									frame_number "30"
+									mask "44"
+									scale
+									{
+										x "1.250"
+										y "1.250"
+									}
+
+								}
+
+							}
+
+							name "Hide"
+						}
+
+						GuiAnimationDef
+						{
+							frames
+							{
+								GuiAnimationFrame
+								{
+									color
+									{
+										w "-1.000"
+									}
+
+									mask "44"
+									scale
+									{
+										x "0.500"
+										y "0.500"
+									}
+
+								}
+
+								GuiAnimationFrame
+								{
+									frame_number "30"
+									mask "32"
+								}
+
+							}
+
+							name "Show"
+						}
+
+					}
+
+				}
+
+				id "resource_popup"
+				item_scripts
+				{
+					scripts
+					{
+						Pair_IdString_GuiScriptDef2
+						{
+							key "OnHide"
+							value
+							{
+								event_name "OnHide"
+								script
+								{
+									children
+									{
+										GuiScriptNodeDef
+										{
+											cmd "GuiScriptCommandAnimStartDef"
+											{
+												anim_info
+												{
+													loop "1"
+													multiplier "0.150"
+												}
+
+												animations
+												{
+													Hide
+													{
+														String "this"
+													}
+
+												}
+
+												type "gui_play_anim"
+											}
+
+										}
+
+									}
+
+									cmd
+									{
+										type "unsupported"
+									}
+
+								}
+
+							}
+
+						}
+
+						Pair_IdString_GuiScriptDef2
+						{
+							key "OnShow"
+							value
+							{
+								event_name "OnShow"
+								script
+								{
+									children
+									{
+										GuiScriptNodeDef
+										{
+											cmd "GuiScriptCommandAnimStartDef"
+											{
+												anim_info
+												{
+													loop "1"
+													multiplier "0.150"
+												}
+
+												animations
+												{
+													Show
+													{
+														String "this"
+													}
+
+												}
+
+												type "gui_play_anim"
+											}
+
+										}
+
+									}
+
+									cmd
+									{
+										type "unsupported"
+									}
+
+								}
+
+							}
+
+						}
+
+					}
+
+				}
+
+				offset
+				{
+					x "115.083"
+					y "30.000"
+				}
+
+				size
+				{
+					x "228.000"
+					y "62.000"
+				}
+
+			}
+
+		}
+
+	}
+
+	id "gui/hud/resource_popup"
+	size
+	{
+		x "1920.000"
+		y "1080.000"
+	}
+
+}
+
