@@ -3650,9 +3650,9 @@ active_30
 
 build_info_subheader_yellow
 {
-    -- confirmed research head line title
+    -- confirmed research head line title (to increase download speed), also in menu database right side yellow items
 	font "orbitron-medium_sdf"
-	char_height "25"
+	char_height "29"
 	space_size "7"
 	color_enabled "1"
 	color "255,195,78"
