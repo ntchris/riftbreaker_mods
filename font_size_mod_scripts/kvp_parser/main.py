@@ -18,12 +18,12 @@ COLOR_KEY_NAME = "color"
 COMMENT_KEY_NAME = "comment"
 COMMENT_CONFIRMED = "confirmed"
 KVP_COMMENT = "--"
-MIN_CHAR_SIZE=0
+MIN_CHAR_SIZE=20
 #MAX_CHAR_SIZE=23
+#MAX_CHAR_SIZE=24
+MAX_CHAR_SIZE=25
 
-MAX_CHAR_SIZE=24
-
-CHAR_LARGER = 20
+CHAR_LARGER = 10
 RED = "255, 0, 0"
 BLUE = "0, 0, 255"
 PURPLE = "255, 0, 255"
@@ -179,7 +179,7 @@ def check_and_change_char_height(kvp, min, max):
       if CHAR_KEY_NAME in data_items:
          changed = change_char_and_color(data_items, min=min, max=max, larger=CHAR_LARGER, color=None)
          if changed:
-            print(f"changed, new {data_items=}")
+            print(f"changed, new {kvp_name}")
    return changed
 def analyze_kvp_json(kvp_list):
    total_changed = 0

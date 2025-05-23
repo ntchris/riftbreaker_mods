@@ -1230,10 +1230,11 @@ hp_green_inventory
 
 resource_white
 {
-    -- confirmed hud top right research name
-	font "Exo2_Bold_sdf"
+    -- confirmed hud top right research name and sub quest
+	-- font "Exo2_Bold_sdf"
+	font "orbitron-medium_sdf"
 	-- char_height "22"
-	char_height "25"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
