@@ -64,8 +64,11 @@ threat_yellow
 
 inventory_description_gray_24
 {
-	font "Exo2_Bold_sdf"
-	char_height "24"
+    -- confirmed inventory weapon properties items
+	-- font "Exo2_Bold_sdf"
+	font "orbitron-medium_sdf"
+	-- char_height "24"
+	char_height "26"
 	space_size "7"
 	color_enabled "1"
 	color "168,168,168"
@@ -611,7 +614,7 @@ quest_text_blue
 {   -- confirmed quest
 	font "Exo2_Bold_sdf"	 
 	--char_height "26"
-	char_height "30"
+	char_height "40"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
@@ -734,7 +737,7 @@ quest_active_time
 {   -- confirmed quest
 	font "Exo2_Bold_sdf"
 	-- char_height "23"
-	char_height "28"
+	char_height "30"
 	space_size "7"
 	color_enabled "1"
 	color "0,0,0"
@@ -1622,8 +1625,10 @@ active_35_black
 
 time
 {
+    -- confirmed main game hud date time
 	font "orbitron-medium_monospaced_sdf"
-	char_height "23"
+	-- char_height "23"
+	char_height "26"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
@@ -1999,8 +2004,11 @@ small_item_level_1
 
 inventory_description
 {
-	font "Exo2_Bold_sdf"
-	char_height "22"
+    -- confirmed inventory weapon properties items
+	-- font "Exo2_Bold_sdf"
+	font "orbitron-medium_sdf"
+	-- char_height "22"
+	char_height "24"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
@@ -2522,7 +2530,7 @@ quest_text_green
     -- confirmed quest
 	font "Exo2_Bold_sdf"
 	-- char_height "23"
-	char_height "27"
+	char_height "30"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
@@ -2941,8 +2949,10 @@ category_name
 
 inventory_stats_24
 {
+  -- confirmed inventory weapon state values
 	font "Exo2_Bold_sdf"
-	char_height "24"
+	--char_height "24"
+	char_height "26"
 	space_size "7"
 	color_enabled "1"
 	color "160,255,255"
@@ -3253,7 +3263,7 @@ quest_text
 	font "orbitron-medium_sdf"
 	--char_height "23" 
 	--space_size "7"
-	char_height "26"
+	char_height "25"
 	space_size "12"
 	
 	color_enabled "1"
@@ -3682,8 +3692,11 @@ active
 
 inventory_description_yellow_24
 {
-	font "Exo2_Bold_sdf"
-	char_height "24"
+     -- confirmed inventory weapon items
+	-- font "Exo2_Bold_sdf"
+	font "orbitron-medium_sdf"
+	-- char_height "24"
+	char_height "26"
 	space_size "7"
 	color_enabled "1"
 	color "255,195,78"
@@ -3805,7 +3818,7 @@ hp_green
 {   -- confirmed main game hud
 	font "Exo2_Bold_sdf"
 	-- char_height "23"
-	char height "28"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "0,255,57"
@@ -3834,8 +3847,10 @@ hp_green
 
 day
 {
+  -- confirmed main game hud day time
 	font "orbitron-medium_sdf"
-	char_height "23"
+	-- char_height "23"
+	char_height "26"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
@@ -4170,8 +4185,10 @@ inventory_header
 
 inventory_header_22
 {
+    -- confirmed menu inventory damage/proj weapon properties headers
 	font "orbitron-medium_sdf"
-	char_height "24"
+	-- char_height "24"
+	char_height "26"
 	space_size "7"
 	color_enabled "1"
 	color "160,255,255"
