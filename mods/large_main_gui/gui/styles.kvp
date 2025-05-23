@@ -3208,10 +3208,12 @@ item_level_3
 
 resource_green
 {
-    -- confirmed hud resource
-	font "Exo2_Bold_sdf"
+
+    -- confirmed main game screen hud resource, and crafting weapon property values
+	-- font "Exo2_Bold_sdf"
+	font "orbitron-medium_sdf"
 	-- char_height "22"
-	char_height "25"
+	char_height "27"
 	space_size "7"
 	color_enabled "1"
 	color "51,242,81"
