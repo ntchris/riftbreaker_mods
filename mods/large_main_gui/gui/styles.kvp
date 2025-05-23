@@ -860,8 +860,10 @@ build_info_subheader
 
 selected_25
 {
+    -- confirmed database 
 	font "orbitron-medium_sdf"
-	char_height "25"
+	-- char_height "25"
+	char_height "28"
 	space_size "7"
 	color_enabled "0"
 	color "255,255,255"
@@ -1101,9 +1103,10 @@ selected_yellow
 }
 
 selected_yellow_25
-{
+{   -- confirmed dlc
 	font "orbitron-medium_sdf"
-	char_height "25"
+	-- char_height "25"
+	char_height "26"
 	space_size "12"
 	color_enabled "1"
 	color "255,179,0"
@@ -1535,8 +1538,10 @@ inventory_bigger
 
 inventory_category
 {
+    -- confirmed menu database 
 	font "orbitron-medium_sdf"
-	char_height "25"
+	-- char_height "25"
+	char_height "27"
 	space_size "7"
 	color_enabled "1"
 	color "255,195,78"
@@ -2158,9 +2163,10 @@ building_type
 }
 
 inventory_exo_header_25
-{
+{   -- confirmed inventory
 	font "Exo2_Bold_sdf"
-	char_height "25"
+	-- char_height "25"
+	char_height "30"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
@@ -2188,9 +2194,10 @@ inventory_exo_header_25
 }
 
 smallest_item_level_0
-{
+{   -- confirmed user name
 	font "Exo2_Bold_sdf"
-	char_height "25"
+	-- char_height "25"
+	char_height "26"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
@@ -2497,8 +2504,11 @@ research_white
 
 dialogs
 {
-	font "Exo2_Bold_sdf"
-	char_height "25"
+    -- confirmed main game hud dialogs
+	-- font "Exo2_Bold_sdf"
+	-- char_height "25"
+	font "orbitron-medium_sdf"
+	char_height "26"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
@@ -2618,9 +2628,10 @@ inventory_orange_36
 }
 
 research_description_white
-{
-	font "Exo2_Bold_sdf"
-	char_height "26"
+{   -- confirmed menu database , description
+	-- font "Exo2_Bold_sdf"
+	font "orbitron-medium_sdf"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
@@ -2708,9 +2719,10 @@ neutral_30
 }
 
 neutral_25
-{
+{   -- confirmed database 
 	font "orbitron-medium_sdf"
-	char_height "25"
+	-- char_height "25"
+	char_height "28"
 	space_size "7"
 	color_enabled "0"
 	color "255,255,255"
@@ -2799,8 +2811,10 @@ disabled_55
 
 disabled_25
 {
+    -- confirmed database unknown
 	font "orbitron-medium_sdf"
-	char_height "25"
+	-- char_height "25"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "171,171,171"
@@ -3450,8 +3464,10 @@ debug_white_size_38
 
 active_25
 {
+    -- confirmed database
 	font "orbitron-medium_sdf"
-	char_height "25"
+	-- char_height "25"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
