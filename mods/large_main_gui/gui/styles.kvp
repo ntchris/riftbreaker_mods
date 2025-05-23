@@ -28,13 +28,12 @@ resource_value_smaller
 	stroke_position "0"
 	stroke_size "0"
 }
---what3
---what4
+
 threat_yellow
-{   -- confirmed orbital scanner
+{   -- confirmed orbital scanner threat level:
 	font "orbitron-medium_sdf"
 	-- char_height "22"
-	char_height "32"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "255,190,0"
@@ -767,8 +766,9 @@ quest_active_time
 threat_red
 {
    -- confirmed orbital scanner threat level 
+   -- was 22
 	font "orbitron-medium_sdf"
-	char_height "32"
+	char_height "30"
 	space_size "7"
 	color_enabled "1"
 	color "255,73,73"
@@ -1014,8 +1014,10 @@ header_35
 
 active_25_black
 {
+    -- confirmed menu orbital scanner , left mission selected name
 	font "orbitron-medium_sdf"
-	char_height "25"
+	char_height "29"
+	--char_height "25"
 	space_size "7"
 	color_enabled "1"
 	color "0,0,0"
@@ -3929,7 +3931,7 @@ threat_green
     -- confirmed orbital scanner
 	font "orbitron-medium_sdf"
 	-- char_height "22"
-	char_height "32"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "51,242,81"
