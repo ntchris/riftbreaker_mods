@@ -2969,7 +2969,7 @@ inventory_stats_24
   -- confirmed inventory weapon state values
 	font "Exo2_Bold_sdf"
 	--char_height "24"
-	char_height "26"
+	char_height "27"
 	space_size "7"
 	color_enabled "1"
 	color "160,255,255"
@@ -3498,7 +3498,7 @@ active_25
 }
 
 active_20
-{   ---  confirmed menu inventory equipment DPS
+{   --  confirmed menu inventory equipment DPS
 
 	font "orbitron-medium_sdf"
 	char_height "28"
@@ -3774,7 +3774,8 @@ inventory_description_yellow
 inventory_stats_green
 {
 	font "Exo2_Bold_sdf"
-	char_height "27"
+	-- char_height "27"
+	char_height "36"
 	space_size "7"
 	color_enabled "1"
 	color "92,232,114"
