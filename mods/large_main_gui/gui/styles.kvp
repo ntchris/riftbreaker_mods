@@ -1137,12 +1137,12 @@ selected_yellow_25
 }
 
 resource_yellow
-{
-    -- confirmed resource or don't care
+{   
+    -- confirmed resource or don't care  bio scan??
 	font "Exo2_Bold_sdf"
 	-- char_height "22"
 	-- char_height "25"
-	char_height "35"
+	char_height "34"
 	space_size "10"
 	color_enabled "1"
 	color "255,190,0"
@@ -1361,10 +1361,10 @@ build_info_header_blue
 
 resource_gray
 {
-    -- confirmed or don't care
+    -- confirmed or don't care maybe bio scanner
 	font "Exo2_Bold_sdf"
 	-- char_height "22"
-	char_height "36"
+	char_height "34"
 	space_size "7"
 	color_enabled "1"
 	color "168,168,168"
