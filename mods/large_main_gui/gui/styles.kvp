@@ -1,8 +1,9 @@
 resource_value_smaller
 {   -- confirmed resource
-	font "Exo2_Bold_sdf"
+	font "Exo2_Bold_sdf"  
+	-- 23 too  small??? try 24
 	-- char_height "18"
-	char_height "23"
+	char_height "25"
 	space_size "7"
 	color_enabled "1"
 	color "255,195,78"
@@ -797,10 +798,10 @@ threat_red
 
 resource_white_smaller
 {
-    -- confirmed resource
+    -- confirmed resource    bio scan result on right bottom
 	font "Exo2_Bold_sdf"
 	-- char_height "22"
-	char_height "23"
+	char_height "34"  
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
@@ -1137,11 +1138,12 @@ selected_yellow_25
 
 resource_yellow
 {
-    -- confirmed resource
+    -- confirmed resource or don't care
 	font "Exo2_Bold_sdf"
 	-- char_height "22"
-	char_height "25"
-	space_size "7"
+	-- char_height "25"
+	char_height "35"
+	space_size "10"
 	color_enabled "1"
 	color "255,190,0"
 	alpha "1"
@@ -1362,7 +1364,7 @@ resource_gray
     -- confirmed or don't care
 	font "Exo2_Bold_sdf"
 	-- char_height "22"
-	char_height "26"
+	char_height "36"
 	space_size "7"
 	color_enabled "1"
 	color "168,168,168"
@@ -1732,8 +1734,8 @@ resource_green_smaller
 {   
     -- confirmed hud resource
 	font "Exo2_Bold_sdf"
-	-- char_height "22"
-	char_height "24"
+	-- char_height "22", tested 24, try 25
+	char_height "26"
 	space_size "7"
 	color_enabled "1"
 	color "92,232,114"
@@ -2350,10 +2352,10 @@ smallest_item_level_3
 
 resource_blue_smaller
 {
-    -- confirmed resource
+    -- confirmed  bio scan result on right bottom
 	font "Exo2_Bold_sdf"
-	--char_height "22"
-	char_height "24"
+	--char_height "22"  , tested 24, is it good?
+	char_height "34"
 	space_size "7"
 	color_enabled "1"
 	color "101,235,255"
@@ -2511,6 +2513,7 @@ dialogs
 	-- font "Exo2_Bold_sdf"
 	-- char_height "25"
 	font "orbitron-medium_sdf"
+	-- tested 26 try larger 
 	char_height "26"
 	space_size "7"
 	color_enabled "1"
@@ -3212,12 +3215,13 @@ item_level_3
 resource_green
 {
 
-    -- confirmed main game screen hud resource, and crafting weapon property values
+    -- confirmed main game screen hud resource??? no. and crafting weapon property values
 	-- font "Exo2_Bold_sdf"
 	font "orbitron-medium_sdf"
 	-- char_height "22"
-	char_height "27"
-	space_size "7"
+	-- char_height "27" tested 27, try larger
+	char_height "29"
+	space_size "12"
 	color_enabled "1"
 	color "51,242,81"
 	alpha "1"
@@ -3383,7 +3387,7 @@ quest_time
 {   -- confirmed quest
 	font "Exo2_Bold_sdf"
 	--char_height "23"
-	char_height "26"
+	char_height "26"  
 	space_size "7"
 	color_enabled "1"
 	color "255,195,78"
@@ -3564,7 +3568,7 @@ big_green
 }
 
 research_gray
-{
+{    -- not used in research.gui
 	font "Exo2_Bold_sdf"
 	char_height "22"
 	space_size "7"
@@ -3812,7 +3816,7 @@ resource_max
     -- confirmed resource
 	font "Exo2_Bold_sdf"
 	-- char_height "22"
-	char_height "25"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "101,235,255"
@@ -4302,11 +4306,11 @@ popups_content_red
 
 resource_red
 {
-    -- confirmed resource
+    -- confirmed resource red consume value 25 too small
 	font "Exo2_Bold_sdf"
 	-- char_height "22"
-	char_height "25"
-	space_size "7"
+	char_height "29"
+	space_size "12"
 	color_enabled "1"
 	color "255,73,73"
 	alpha "1"
@@ -4679,7 +4683,7 @@ mod_details_value_user
     -- confirmed or dont care
 	font "droid_sans_fallback_exor_orbitron_sdf"
 	-- char_height "20"
-	-- char_height "26"
+	char_height "26"
 	space_size "12"
 	color_enabled "1"
 	color "116,232,255"
