@@ -967,7 +967,8 @@ GuiRootGroupDef
 				content "COMMON_Text_Line"
 				style
 				{
-					char_height "25.000"
+				    -- unknown ? what 25
+					char_height "28.000"
 					color
 					{
 						y "0.659"
@@ -1441,7 +1442,8 @@ GuiRootGroupDef
 							content "COMMON_Text_Line"
 							style
 							{
-								char_height "26.000"
+							    -- ????? 26
+								char_height "28.000"
 								df "1"
 								font "Exo2_Bold_sdf"
 								glow_color
@@ -1586,8 +1588,8 @@ GuiRootGroupDef
 							capitals "1"
 							content "VARIABLE_number_test"
 							style
-							{
-								char_height "25.000"
+							{   -- level??!!!!  25
+								char_height "35.000"
 								color
 								{
 									y "0.765"
@@ -1650,6 +1652,7 @@ GuiRootGroupDef
 							content "COMMON_Text_Line"
 							style
 							{
+								-- 29  unknown
 								char_height "29.000"
 								color
 								{
@@ -1711,8 +1714,8 @@ GuiRootGroupDef
 							capitals "1"
 							content "VARIABLE_number_test"
 							style
-							{
-								char_height "25.000"
+							{   ---  level??!!  25
+								char_height "35.000"
 								color
 								{
 									y "0.765"
@@ -1874,7 +1877,7 @@ GuiRootGroupDef
 													style
 													{
 														-- char_height "25.000"
-														char_height "28.000"
+														char_height "29.000"
 														df "1"
 														font "orbitron-medium_sdf"
 														glow_color
@@ -2061,7 +2064,7 @@ GuiRootGroupDef
 																	style
 																	{   -- confirmed description for monsters, white
 																		-- char_height "26.000"
-																		char_height "28.000"
+																		char_height "30.000"
 																		df "1"
 																		-- font "Exo2_Bold_sdf"
 																		font "orbitron-medium_sdf"
@@ -2379,7 +2382,8 @@ GuiRootGroupDef
 													content "gui/menu/bestiary.resource_drop"
 													style
 													{
-														char_height "21.000"
+													   -- drop??? !!! 21
+														char_height "30.000"
 														color
 														{
 															y "0.765"
@@ -2481,8 +2485,8 @@ GuiRootGroupDef
 												{
 													content "COMMON_Text_Line"
 													style
-													{
-														char_height "25.000"
+													{   -- health???!!!
+														char_height "28.000"
 														df "1"
 														font "orbitron-medium_sdf"
 														glow_color
@@ -2540,7 +2544,8 @@ GuiRootGroupDef
 													content "gui/menu/bestiary.health"
 													style
 													{
-														char_height "21.000"
+													   ---  !!!  21
+														char_height "28.000"
 														color
 														{
 															y "0.765"
@@ -2745,7 +2750,8 @@ GuiRootGroupDef
 													content "gui/menu/bestiary.additional_drop"
 													style
 													{
-														char_height "21.000"
+													   -- 21 ???what
+														char_height "28.000"
 														color
 														{
 															y "0.765"
@@ -2952,7 +2958,8 @@ GuiRootGroupDef
 																			content "COMMON_Text_Line"
 																			style
 																			{
-																				char_height "25.000"
+																			    -----???!!!  25
+																				char_height "28.000"
 																				df "1"
 																				font "orbitron-medium_sdf"
 																				glow_color
@@ -3057,7 +3064,8 @@ GuiRootGroupDef
 													content "gui/menu/bestiary.resistances"
 													style
 													{
-														char_height "21.000"
+													    ---- 21 what ???!!!
+														char_height "28.000"
 														color
 														{
 															y "0.765"
@@ -3896,7 +3904,8 @@ GuiRootGroupDef
 																			content "COMMON_Text_Line"
 																			style
 																			{
-																				char_height "25.000"
+																			   --- ????
+																				char_height "28.000"
 																				color
 																				{
 																					x "0.000"
@@ -4147,7 +4156,8 @@ GuiRootGroupDef
 																			content "COMMON_Text_Line"
 																			style
 																			{
-																				char_height "25.000"
+																			   --- 25 what ????
+																				char_height "28.000"
 																				color
 																				{
 																					x "0.000"
@@ -4383,7 +4393,8 @@ GuiRootGroupDef
 																			content "gui/menu/bestiary.unknown_species"
 																			style
 																			{
-																				char_height "25.000"
+																			   --- 25 ???
+																				char_height "28.000"
 																				color
 																				{
 																					x "0.671"
@@ -4594,7 +4605,8 @@ GuiRootGroupDef
 																			content "gui/menu/bestiary.unknown_species"
 																			style
 																			{
-																				char_height "25.000"
+																			   --- ????  25
+																				char_height "28.000"
 																				color
 																				{
 																					x "0.671"
@@ -4823,8 +4835,8 @@ GuiRootGroupDef
 																		{
 																			content "COMMON_Text_Line"
 																			style
-																			{
-																				char_height "25.000"
+																			{   --- 25 ????
+																				char_height "28.000"
 																				color_enabled "0"
 																				df "1"
 																				font "orbitron-medium_sdf"
@@ -5066,7 +5078,7 @@ GuiRootGroupDef
 																			content "COMMON_Text_Line"
 																			style
 																			{
-																				char_height "25.000"
+																				char_height "28.000"
 																				color_enabled "0"
 																				df "1"
 																				font "orbitron-medium_sdf"

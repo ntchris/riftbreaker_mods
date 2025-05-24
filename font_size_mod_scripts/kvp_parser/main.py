@@ -18,16 +18,16 @@ COLOR_KEY_NAME = "color"
 COMMENT_KEY_NAME = "comment"
 COMMENT_CONFIRMED = "confirmed"
 KVP_COMMENT = "--"
-MIN_CHAR_SIZE=27
+MIN_CHAR_SIZE=20
 #MAX_CHAR_SIZE=23
 #MAX_CHAR_SIZE=24
-MAX_CHAR_SIZE=27
+MAX_CHAR_SIZE=32
 TEST_CONFIRMED_ITEMS_ONLY = False
 # do not modify confirmed items since they are good already
-IGNORE_CONFIRMED_ITEMS = True
+IGNORE_CONFIRMED_ITEMS = False
 #
-
-ONLY_ENLARGE_FONT = None
+# Exo2_Bold_sdf , or orbitron-medium_sdf
+ONLY_ENLARGE_FONT_TYPE = None
 
 # 27-29: database monster name above picture;  crafting crafting cost: is 27-29.
 #25:  main game menu, user name; database monster list name, level.

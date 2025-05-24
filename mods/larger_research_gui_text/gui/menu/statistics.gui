@@ -2271,6 +2271,7 @@ GuiRootGroupDef
 																																					content "COMMON_Text_Line"
 																																					style
 																																					{
+																																					   --not this
 																																						char_height "32"
 																																						color
 																																						{
@@ -2428,6 +2429,7 @@ GuiRootGroupDef
 																																		content "COMMON_Text_Line"
 																																		style
 																																		{
+																																		    -- not this
 																																			char_height "32"
 																																			df "1"
 																																			font "Exo2_Bold_sdf"
@@ -2914,7 +2916,8 @@ GuiRootGroupDef
 																																					content "COMMON_Text_Line"
 																																					style
 																																					{
-																																						char_height "32"
+																																						--char_height "32" wrong
+																																						char_height "48"
 																																						color
 																																						{
 																																							y "0.765"
@@ -3071,6 +3074,7 @@ GuiRootGroupDef
 																																		content "COMMON_Text_Line"
 																																		style
 																																		{
+																																			-- not this
 																																			char_height "32"
 																																			df "1"
 																																			font "Exo2_Bold_sdf"
@@ -3724,8 +3728,7 @@ GuiRootGroupDef
 																content "COMMON_Text_Line"
 																style
 																{
-																   --  statistics yellow item name
-
+																   --  statistics yellow item name  35 too large ?? 34 better, play time yellow
 																	char_height "33"
 																	color
 																	{
@@ -3880,7 +3883,7 @@ GuiRootGroupDef
 													capitals "1"
 													content "COMMON_Text_Line"
 													style
-													{   -- value white
+													{   -- white value
 														char_height "36"
 														df "1"
 														font "Exo2_Bold_sdf"
