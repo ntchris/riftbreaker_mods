@@ -1016,7 +1016,7 @@ active_25_black
 {
     -- confirmed menu orbital scanner , left mission selected name
 	font "orbitron-medium_sdf"
-	char_height "29"
+	char_height "31"
 	--char_height "25"
 	space_size "7"
 	color_enabled "1"
@@ -1076,6 +1076,7 @@ disabled
 
 selected_yellow
 {
+    -- confirmed database
 	font "orbitron-medium_sdf"
 	char_height "35"
 	space_size "12"
@@ -1105,10 +1106,10 @@ selected_yellow
 }
 
 selected_yellow_25
-{   -- confirmed dlc 
+{   -- confirmed database list
 	font "orbitron-medium_sdf"
 	-- char_height "25"
-	char_height "32"
+	char_height "34"
 	space_size "12"
 	color_enabled "1"
 	color "255,179,0"
@@ -1420,7 +1421,8 @@ active_white
 }
 
 selected
-{
+{   
+    -- confirmed database
 	font "orbitron-medium_sdf"
 	char_height "35"
 	space_size "12"
@@ -1541,10 +1543,10 @@ inventory_bigger
 
 inventory_category
 {
-    -- confirmed menu database 
+    -- confirmed menu database cate name and level and level up
 	font "orbitron-medium_sdf"
 	-- char_height "25"
-	char_height "27"
+	char_height "31"
 	space_size "7"
 	color_enabled "1"
 	color "255,195,78"
@@ -2722,10 +2724,10 @@ neutral_30
 }
 
 neutral_25
-{   -- confirmed database 
+{   -- confirmed database list name
 	font "orbitron-medium_sdf"
 	-- char_height "25"
-	char_height "28"
+	char_height "29"
 	space_size "7"
 	color_enabled "0"
 	color "255,255,255"
@@ -2817,7 +2819,7 @@ disabled_25
     -- confirmed database unknown
 	font "orbitron-medium_sdf"
 	-- char_height "25"
-	char_height "28"
+	char_height "29"
 	space_size "7"
 	color_enabled "1"
 	color "171,171,171"
@@ -3471,10 +3473,10 @@ debug_white_size_38
 
 active_25
 {
-    -- confirmed database
+    -- confirmed database list
 	font "orbitron-medium_sdf"
 	-- char_height "25"
-	char_height "28"
+	char_height "30"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
