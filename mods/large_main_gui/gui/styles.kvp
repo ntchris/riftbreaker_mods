@@ -2846,8 +2846,10 @@ disabled_25
 
 objective_header
 {
-	font "Exo2_Bold_sdf"
-	char_height "23"
+    -- confirmed main game hud quest ie use the orbital scanner screen to access distance missions.
+	-- font "Exo2_Bold_sdf"
+	font "orbitron-medium_sdf"
+	char_height "29"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"

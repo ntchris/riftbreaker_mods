@@ -3724,7 +3724,9 @@ GuiRootGroupDef
 																content "COMMON_Text_Line"
 																style
 																{
-																	char_height "32"
+																   --  statistics yellow item name
+
+																	char_height "33"
 																	color
 																	{
 																		y "0.765"
@@ -3878,8 +3880,8 @@ GuiRootGroupDef
 													capitals "1"
 													content "COMMON_Text_Line"
 													style
-													{
-														char_height "32"
+													{   -- value white
+														char_height "36"
 														df "1"
 														font "Exo2_Bold_sdf"
 														glow_color

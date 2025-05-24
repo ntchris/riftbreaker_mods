@@ -180,6 +180,8 @@ def check_and_change_char_height(kvp, min, max):
          changed = change_char_and_color(data_items, min=min, max=max, larger=CHAR_LARGER, color=None)
          if changed:
             print(f"changed, new {kvp_name}")
+      else:
+         raise Exception(f"char_height is missing!! {kvp_name}")
    return changed
 def analyze_kvp_json(kvp_list):
    changed_kvp_list = []
