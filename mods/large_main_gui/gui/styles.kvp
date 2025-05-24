@@ -4516,9 +4516,10 @@ huge_icon_season
 
 
 small_menu_content_upsell
-{
+{   -- confirmed DLC names in main menu
 	font "Exo2_Bold_sdf"
-	char_height "27"
+	-- char_height "27"
+	 char_height "34"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
