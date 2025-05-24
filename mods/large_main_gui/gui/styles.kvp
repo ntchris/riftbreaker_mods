@@ -860,7 +860,7 @@ build_info_subheader
 
 selected_25
 {
-    -- confirmed database 
+    -- confirmed   main menu new game single, mod   cannot larger than 28
 	font "orbitron-medium_sdf"
 	-- char_height "25"
 	char_height "28"
@@ -1105,10 +1105,10 @@ selected_yellow
 }
 
 selected_yellow_25
-{   -- confirmed dlc
+{   -- confirmed dlc 
 	font "orbitron-medium_sdf"
 	-- char_height "25"
-	char_height "26"
+	char_height "32"
 	space_size "12"
 	color_enabled "1"
 	color "255,179,0"
