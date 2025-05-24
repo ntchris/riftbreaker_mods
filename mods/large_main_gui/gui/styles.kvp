@@ -860,10 +860,10 @@ build_info_subheader
 
 selected_25
 {
-    -- confirmed   main menu new game single, mod   cannot larger than 28
+    -- confirmed   main menu new game single, mod   cannot be 28,  29 works. may need match other font size
 	font "orbitron-medium_sdf"
 	-- char_height "25"
-	char_height "28"
+	char_height "29"
 	space_size "7"
 	color_enabled "0"
 	color "255,255,255"
