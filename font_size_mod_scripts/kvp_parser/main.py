@@ -18,11 +18,25 @@ COLOR_KEY_NAME = "color"
 COMMENT_KEY_NAME = "comment"
 COMMENT_CONFIRMED = "confirmed"
 KVP_COMMENT = "--"
-MIN_CHAR_SIZE=10
+MIN_CHAR_SIZE=27
 #MAX_CHAR_SIZE=23
 #MAX_CHAR_SIZE=24
-MAX_CHAR_SIZE=30
+MAX_CHAR_SIZE=27
+TEST_CONFIRMED_ITEMS_ONLY = False
+# do not modify confirmed items since they are good already
+IGNORE_CONFIRMED_ITEMS = True
+#
 
+ONLY_ENLARGE_FONT = None
+
+# 27-29: database monster name above picture;  crafting crafting cost: is 27-29.
+#25:  main game menu, user name; database monster list name, level.
+
+#25, 26 database monster name on left list. monster level upgrade 2Xnumber; main game menu, single, mod, continue and, user name on top;
+
+
+#26, 27 new item crafted properties and values
+# new item available 24
 CHAR_LARGER = 20
 RED = "255, 0, 0"
 BLUE = "0, 0, 255"
@@ -172,15 +186,20 @@ def check_and_change_char_height(kvp, min, max):
    data_items = kvp[kvp_name]
    #print(f"{data_items=}")
    # print(f"    {k}={v}")
-   if COMMENT_CONFIRMED in data_items:
-      # skip since it's confirmed already
-      print(f"skip enlarge char since it's already confirmed: {kvp_name}")
-   else:
-      if CHAR_KEY_NAME in data_items:
+   is_confirmed = COMMENT_CONFIRMED in data_items
+   if is_confirmed and IGNORE_CONFIRMED_ITEMS:
+         print(f"skip enlarge char since it's already confirmed: {kvp_name}")
+         return False
+
+   if TEST_CONFIRMED_ITEMS_ONLY and not is_confirmed:
+      print(f"test already confirmed items only, this item is Not confirmed, ignore. {kvp_name}")
+      return False
+
+   if CHAR_KEY_NAME in data_items:
          changed = change_char_and_color(data_items, min=min, max=max, larger=CHAR_LARGER, color=None)
          if changed:
             print(f"changed, new {kvp_name}")
-      else:
+   else:
          raise Exception(f"char_height is missing!! {kvp_name}")
    return changed
 def analyze_kvp_json(kvp_list):
@@ -207,8 +226,10 @@ def data_to_kvp_file(data, output_file, indent="\t"):
                line=v
             elif k==COMMENT_CONFIRMED:
                # ignore confirm=True field, write nothing
-               continue
-               pass
+
+                  # ignore confirmed items
+                  continue
+
             else:
                line = f"{k}{KEY_VALUE_SEP}{QUOTE}{v}{QUOTE}"
             line=f"{indent}{line}\n"
@@ -220,7 +241,7 @@ def data_to_kvp_file(data, output_file, indent="\t"):
 def main():
    kvp_list = parse_kvp_file_to_json_file(KVP_FILE)
    changed_list = analyze_kvp_json(kvp_list)
-   print(f"changed {changed_list} items!")
+   print(f"changed below kvp items, total {len(changed_list)}, {changed_list}")
    data_to_kvp_file(kvp_list, OUTOUT_KVP_FILE)
    print("drag the updated version of styles.kvp to \\\\The Riftbreaker\packs\startup\01_win_startup.zip 7zip GUI in <gui> dir.")
 

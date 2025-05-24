@@ -68,7 +68,7 @@ inventory_description_gray_24
 	-- font "Exo2_Bold_sdf"
 	font "orbitron-medium_sdf"
 	-- char_height "24"
-	char_height "26"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "168,168,168"
@@ -96,9 +96,9 @@ inventory_description_gray_24
 }
 
 inventory_description_gray
-{
+{   -- new item crafted, gray properties
 	font "Exo2_Bold_sdf"
-	char_height "27"
+	char_height "34"
 	space_size "7"
 	color_enabled "1"
 	color "168,168,168"
@@ -1330,9 +1330,9 @@ resource_value
 }
 
 build_info_header_blue
-{
+{   -- confirmed new item crafted: crafting, make a new item   was 23
 	font "orbitron-medium_sdf"
-	char_height "23"
+	char_height "33"
 	space_size "7"
 	color_enabled "1"
 	color "101,235,255"
@@ -1574,9 +1574,9 @@ inventory_category
 }
 
 inventory_smaller
-{
+{   -- what ?? 20??  change it anyway   
 	font "Exo2_Bold_sdf"
-	char_height "20"
+	char_height "28"
 	space_size "7"
 	color_enabled "1"
 	color "160,255,255"
@@ -1702,8 +1702,8 @@ equipment_blue_22
 {
     -- confirmed menu crafting , right side RESOURCE, Journal, familiarity increased/research completed
 	font "orbitron-medium_sdf"
-	-- char_height "22"
-	char_height "28"
+	-- char_height "22"  ,  tested 28, test bigger 30?
+	char_height "30"
 	space_size "7"
 	color_enabled "1"
 	color "114,234,255"
@@ -1827,9 +1827,9 @@ hp_blue
 }
 
 inventory_stats_red
-{
+{   -- confirmed crafted was 27
 	font "Exo2_Bold_sdf"
-	char_height "27"
+	char_height "32"
 	space_size "7"
 	color_enabled "1"
 	color "255,73,73"
@@ -2975,7 +2975,7 @@ inventory_stats_24
   -- confirmed inventory weapon state values
 	font "Exo2_Bold_sdf"
 	--char_height "24"
-	char_height "27"
+	char_height "29"
 	space_size "7"
 	color_enabled "1"
 	color "160,255,255"
@@ -3004,8 +3004,9 @@ inventory_stats_24
 
 inventory_stats
 {
+ -- new item crafted , values
 	font "Exo2_Bold_sdf"
-	char_height "27"
+	char_height "32"
 	space_size "7"
 	color_enabled "1"
 	color "160,255,255"
@@ -3750,10 +3751,11 @@ inventory_description_yellow_24
 	stroke_position "0"
 	stroke_size "0"
 }
+
 inventory_description_yellow
-{
+{   -- confirmed new item crafted  properties.  was 27
 	font "Exo2_Bold_sdf"
-	char_height "27"
+	char_height "36"
 	space_size "7"
 	color_enabled "1"
 	color "255,195,78"
