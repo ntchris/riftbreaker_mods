@@ -860,7 +860,7 @@ build_info_subheader
 
 selected_25
 {
-    -- confirmed   main menu new game single, mod   cannot be 28,  29 works. may need match other font size
+    -- confirmed   main menu new game single, mod   cannot larger than 28
 	font "orbitron-medium_sdf"
 	-- char_height "25"
 	char_height "29"
@@ -1076,7 +1076,6 @@ disabled
 
 selected_yellow
 {
-    -- confirmed database
 	font "orbitron-medium_sdf"
 	char_height "35"
 	space_size "12"
@@ -1106,7 +1105,7 @@ selected_yellow
 }
 
 selected_yellow_25
-{   -- confirmed database list
+{   -- confirmed dlc 
 	font "orbitron-medium_sdf"
 	-- char_height "25"
 	char_height "34"
@@ -1421,8 +1420,7 @@ active_white
 }
 
 selected
-{   
-    -- confirmed database
+{
 	font "orbitron-medium_sdf"
 	char_height "35"
 	space_size "12"
@@ -1546,7 +1544,7 @@ inventory_category
     -- confirmed menu database cate name and level and level up
 	font "orbitron-medium_sdf"
 	-- char_height "25"
-	char_height "31"
+	char_height "30"
 	space_size "7"
 	color_enabled "1"
 	color "255,195,78"
@@ -2880,8 +2878,9 @@ objective_header
 
 header_24
 {
+    -- confirmed inventory new items available! 24
 	font "orbitron-medium_sdf"
-	char_height "24"
+	char_height "30"
 	space_size "7"
 	color_enabled "0"
 	color "255,255,255"
@@ -4368,8 +4367,9 @@ research_header
 
 vote_descirption
 {
+    
 	font "Exo2_Bold_sdf"
-	char_height "24"
+	char_height "29"
 	space_size "7"
 	color_enabled "1"
 	color "255,255,255"
