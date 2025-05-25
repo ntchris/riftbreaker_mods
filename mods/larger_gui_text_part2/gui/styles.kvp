@@ -1271,7 +1271,7 @@ bilans_green
 	font "Exo2_Bold_sdf"
 	-- char_height "23"
 	char_height "28"
-	space_size "7"
+	space_size "14"
 	color_enabled "1"
 	color "51,248,81"
 	alpha "1"
@@ -1732,11 +1732,11 @@ equipment_blue_22
 
 resource_green_smaller
 {   
-    -- confirmed hud resource
+    -- confirmed hud resource top right, resource output/income (both red and green)
 	font "Exo2_Bold_sdf"
 	-- char_height "22", tested 24, try 25
 	char_height "26"
-	space_size "7"
+	space_size "20"
 	color_enabled "1"
 	color "92,232,114"
 	alpha "1"
@@ -1768,7 +1768,7 @@ bilans_red
 	font "Exo2_Bold_sdf"
 	-- char_height "23"
 	char_height "28"
-	space_size "7"
+	space_size "14"
 	color_enabled "1"
 	color "242,51,51"
 	alpha "1"
@@ -3217,12 +3217,13 @@ resource_green
 {
 
     -- confirmed main game screen hud resource??? no. and crafting weapon property values
-	-- font "Exo2_Bold_sdf"
+	-- font "Exo2_Bold_sdf"   blocking red?
 	font "orbitron-medium_sdf"
 	-- char_height "22"
 	-- char_height "27" tested 27, try larger
 	char_height "29"
-	space_size "12"
+	space_size "20"
+	--12 
 	color_enabled "1"
 	color "51,242,81"
 	alpha "1"
@@ -4310,7 +4311,7 @@ resource_red
 {
     -- confirmed resource red consume value 25 too small
 	font "Exo2_Bold_sdf"
-	-- char_height "22"
+	-- char_height "22"  , 29 too large, blocking?
 	char_height "29"
 	space_size "12"
 	color_enabled "1"
